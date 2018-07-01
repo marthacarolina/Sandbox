@@ -1,0 +1,27 @@
+<apex:page standardController="Campaign" extensions="showCampaignMembers">
+  <apex:form >
+    <apex:pageBlock title="{!campaign.name}">
+      <apex:pageBlockSection title="Criteria">
+      <apex:outputLabel value="Enter Name Snippet"/>
+      <apex:inputText value="{!nameQuery}"/>
+      <apex:commandButton action="{!executeSearch}" value="Search"/>
+   </apex:pageBlockSection>
+    
+   <apex:pageBlockTable value="{!contacts}" var="con">
+      <apex:column headerValue="Name">
+         <apex:outputLink value="/{!con.id}/e?retURL={!URLENCODE('/apex/RetUrlSearchPage?query='+nameQuery)}">{!con.Name}</apex:outputLink>
+      </apex:column>
+      <apex:column value="{!con.Participant__c}"/>
+   </apex:pageBlockTable>
+   <apex:pageBlockSection title="Participants in Campaign">
+     <apex:pageBlockTable value="{!participants}" var="part">
+       <apex:column value="{!part.FirstName}"/>
+       <apex:column value="{!part.LastName}"/>
+       <apex:column value="{!part.Email}"/>
+       <apex:column value="{!part.Status}"/>
+                 
+     </apex:pageBlockTable>
+   </apex:pageBlockSection>
+ </apex:pageBlock>
+  </apex:form>
+</apex:page>

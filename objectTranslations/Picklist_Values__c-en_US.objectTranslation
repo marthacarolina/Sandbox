@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Picklist Values</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Picklists Values</value>
+    </caseValues>
+    <fields>
+        <label><!-- TheValues --></label>
+        <name>TheValues__c</name>
+        <picklistValues>
+            <masterLabel>Attended</masterLabel>
+            <translation><!-- Attended --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation><!-- Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No-Show</masterLabel>
+            <translation><!-- No-Show --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Possible</masterLabel>
+            <translation><!-- Possible --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Signed Up</masterLabel>
+            <translation><!-- Signed Up --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Staff</masterLabel>
+            <translation><!-- Staff --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waiting list</masterLabel>
+            <translation><!-- Waiting list --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- etype --></label>
+        <name>etype__c</name>
+        <picklistValues>
+            <masterLabel>After Campaign Emails</masterLabel>
+            <translation><!-- After Campaign Emails --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reminder Emails</masterLabel>
+            <translation><!-- Reminder Emails --></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

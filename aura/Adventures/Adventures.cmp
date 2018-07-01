@@ -1,0 +1,74 @@
+<aura:component controller="ContactAdventureController">
+    <aura:attribute name="camp" type="CampInvolvment" />
+    <aura:attribute name="openEdit" type="boolean" default="false"/>
+        <lightning:card variant="Narrow">
+            <aura:set attribute="title">
+                <a onclick="{!c.goToRecord}" ><span class="slds-text-body_regular">{!v.camp.Name}</span></a>
+            </aura:set>
+            <aura:set attribute="actions">
+                <lightning:buttonMenu aura:id="menuCampInv" 
+                                      iconName="utility:down" 
+                                      iconSize="xx-small" alternativeText="Show menu" 
+                                      onselect="{! c.handleSelect }">
+                    <lightning:menuItem label="Edit" value="edit" />
+                    <lightning:menuItem label="Delete" value="delete" />
+                </lightning:buttonMenu>
+            </aura:set>
+            <!-- aura:set attribute="actions">
+                <lightning:button name="details" label="Deets" onclick="{!c.goToRecord}" />
+            </aura:set -->    
+            <aura:set attribute="footer">
+                <lightning:badge label="{!v.camp.Type}"/>
+            </aura:set>
+            <p class="slds-p-horizontal_small">
+                <span class="slds-text-color_weak">Start Date: </span>
+                <lightning:formattedDateTime value="{!v.camp.StartDate}" year="numeric" month="numeric" day="numeric" />
+            </p>
+            <p class="slds-p-horizontal_small">
+                <span class="slds-text-color_weak">End Date: </span>
+                <lightning:formattedDateTime value="{!v.camp.EndDate}" />
+            </p>
+            <p class="slds-p-horizontal_small">
+                <span class="slds-text-color_weak">Status: </span>
+                {!v.camp.Status}
+            </p>
+        </lightning:card>
+    <aura:if isTrue="{!v.openEdit}">
+        <div class="demo-only" style="height: 640px;">
+            <section role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" 
+                     aria-modal="true" aria-describedby="modal-content-id-1" 
+                     class="slds-modal slds-fade-in-open">
+                <div class="slds-modal__container">
+                    <header class="slds-modal__header">
+                        <button class="slds-button slds-modal__close slds-button--icon-inverse" title="Close" onclick="{!c.closeModal}">
+                            X
+                            <span class="slds-assistive-text">Close</span>
+                        </button>
+                        <h2 id="modal-heading-01" class="slds-text-heading_medium slds-hyphenate">Edit Campaign Member Record</h2>
+                    </header>
+                    <div class="slds-modal__content slds-p-around_medium" id="modal-content-id-1">
+                        <lightning:recordEditForm aura:id="recordViewForm" 
+                                                  recordId="{!v.camp.CMid}"
+                                                  objectApiName="CampaignMember">
+                            <lightning:messages />
+                            <lightning:outputField fieldName="FirstName" />
+                            <lightning:outputField fieldName="LastName" />
+                            <!--Picklist-->
+                            <lightning:inputField fieldName="Status" />
+                            <lightning:outputField fieldName="Activity_Days__c" />
+                            <lightning:button aura:id="submit" type="submit" label="Update record" class="slds-m-top_medium" onClick="{c.closeModal}"/>
+                        </lightning:recordEditForm>
+                    </div>
+                    <!---
+                    <footer class="slds-modal__footer">
+                        <button class="slds-button slds-button_neutral" onClick="{!c.closeModal}">Cancel</button>
+                        <button class="slds-button slds-button_brand">Save</button>
+                    </footer>
+                    -->
+                </div>
+            </section>
+            <div class="slds-backdrop slds-backdrop_open"></div>
+        </div>
+    </aura:if>
+
+</aura:component>

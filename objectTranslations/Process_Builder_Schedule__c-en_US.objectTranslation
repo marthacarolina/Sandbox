@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Process Builder Schedule</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Process Builder Schedules</value>
+    </caseValues>
+    <fields>
+        <help><!-- When checked then process will be scheduled. If unchecked, or if this record is deleted, then at next scheduled run the job will be aborted. --></help>
+        <label><!-- Active --></label>
+        <name>Active__c</name>
+    </fields>
+    <fields>
+        <help><!-- How often the job should be scheduled to run. See https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_scheduler.htm for help with creating cron expression. --></help>
+        <label><!-- Cron Expression --></label>
+        <name>Cron_Expression__c</name>
+    </fields>
+    <fields>
+        <help><!-- Why do you need this process scheduled? Your future self will thank you for filling this in =) --></help>
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- Computed name for the scheduled job. This will be the name of the CronJobDetail record that represents the schedule. --></help>
+        <label><!-- Job Name --></label>
+        <name>Job_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- The unique name of your Process Builder to schedule. --></help>
+        <label><!-- Process API Name --></label>
+        <name>Process_API_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- How many times has the scheduled process been triggered? --></help>
+        <label><!-- Times Triggered --></label>
+        <name>Times_Triggered__c</name>
+    </fields>
+    <layouts>
+        <layout>Process Builder Schedule Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Description Information --></label>
+            <section>Description Information</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

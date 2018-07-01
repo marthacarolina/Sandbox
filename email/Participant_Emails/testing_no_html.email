@@ -1,0 +1,20 @@
+<div style="background-color: #e6ffe6; width:100%;">
+<p>
+Hi {!CampaignMember.FirstName},
+</p>
+<p>
+Don't forget about the {!CampaignMember.Campaign}, it is happening on {!CampaignMember.CampaignDate}
+</p>
+<p>
+<div style="margin:auto;">
+{!CampaignMember.Campaign}
+<img border="0"  src="https://www.google.com/calendar/images/ext/gc_button1_en.gif"></a>
+</div>
+</p>
+<P>
+{!User.FirstName} {!User.LastName}
+</P>
+<p>
+{!User.Email}
+</p>
+</div>

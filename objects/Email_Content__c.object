@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Holds the body (template) of mass emails for participants and volunteers.</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>false</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Body__c</fullName>
+        <description>This is the content of the email. The part that will be the same for all the emails in this type of campaign.</description>
+        <externalId>false</externalId>
+        <label>Body</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Campaign_Type__c</fullName>
+        <description>This Email will be used for this type of campaign.</description>
+        <externalId>false</externalId>
+        <label>Campaign Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Adv_Camp_Type</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>For_Participants__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>The email is intended for participants</description>
+        <externalId>false</externalId>
+        <label>For Participants</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>For_Volunteers__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>The email is intended for Volunteers</description>
+        <externalId>false</externalId>
+        <label>For Volunteers</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Subject__c</fullName>
+        <description>The subject of the email to be sent</description>
+        <externalId>false</externalId>
+        <label>Subject</label>
+        <length>200</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Type_of_Email__c</fullName>
+        <description>Specifies if the email is a reminder to be sent before the campaign or if it is an after-campaign email.</description>
+        <externalId>false</externalId>
+        <label>Type of Email</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Reminder Emails</fullName>
+                    <default>true</default>
+                    <label>Reminder Emails</label>
+                </value>
+                <value>
+                    <fullName>After Campaign Emails</fullName>
+                    <default>false</default>
+                    <label>After Campaign Emails</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>Email_Content</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Campaign_Type__c</columns>
+        <columns>For_Participants__c</columns>
+        <columns>For_Volunteers__c</columns>
+        <columns>Type_of_Email__c</columns>
+        <columns>CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <label>Email_Content Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Email_Contents</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Type_of_Email__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Campaign_Type__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>For_Participants__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>For_Volunteers__c</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>Campaign_Type__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>For_Participants__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>For_Volunteers__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Type_of_Email__c</lookupDialogsAdditionalFields>
+        <searchResultsAdditionalFields>Campaign_Type__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>For_Participants__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>For_Volunteers__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

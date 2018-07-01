@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>When a contact signs up for a POE event DA gets a notification.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Alert of POE Signup</name>
+    <style>none</style>
+    <subject>A contact has signed up for a DDA event</subject>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

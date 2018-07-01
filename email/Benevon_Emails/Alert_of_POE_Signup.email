@@ -1,0 +1,6 @@
+Who:   {!CampaignMember.Contact} <br/>
+email:  {!CampaignMember.Email}<br/>
+phone: {!CampaignMember.Phone} <br/>
+<br/>
+
+When: {!CampaignMember.Campaign}

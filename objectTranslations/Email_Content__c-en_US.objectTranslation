@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Email_Content</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Email_Contents</value>
+    </caseValues>
+    <fields>
+        <label><!-- Body --></label>
+        <name>Body__c</name>
+    </fields>
+    <fields>
+        <label><!-- Campaign Type --></label>
+        <name>Campaign_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- For Participants --></label>
+        <name>For_Participants__c</name>
+    </fields>
+    <fields>
+        <label><!-- For Volunteers --></label>
+        <name>For_Volunteers__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subject --></label>
+        <name>Subject__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type of Email --></label>
+        <name>Type_of_Email__c</name>
+        <picklistValues>
+            <masterLabel>After Campaign Emails</masterLabel>
+            <translation><!-- After Campaign Emails --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reminder Emails</masterLabel>
+            <translation><!-- Reminder Emails --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Email_Content Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

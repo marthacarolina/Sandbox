@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Letterhead xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <backgroundColor>#EEFFE6</backgroundColor>
+    <bodyColor>#FFFFFF</bodyColor>
+    <bottomLine>
+        <color>#336600</color>
+        <height>5</height>
+    </bottomLine>
+    <description>Used for emails sent to volunteers.</description>
+    <footer>
+        <backgroundColor>#FFFFFF</backgroundColor>
+        <height>100</height>
+        <horizontalAlignment>Left</horizontalAlignment>
+        <logo>GW_Volunteers__Volunteers_Documents/Volunteer_footer.png</logo>
+        <verticalAlignment>Top</verticalAlignment>
+    </footer>
+    <header>
+        <backgroundColor>#FFFFFF</backgroundColor>
+        <height>100</height>
+        <horizontalAlignment>Left</horizontalAlignment>
+        <logo>SharedDocuments/Vol_Logo.png</logo>
+        <verticalAlignment>Top</verticalAlignment>
+    </header>
+    <middleLine>
+        <color>#EEFFE6</color>
+        <height>5</height>
+    </middleLine>
+    <name>Volunteers Emails Letterhead</name>
+    <topLine>
+        <color>#336600</color>
+        <height>5</height>
+    </topLine>
+</Letterhead>

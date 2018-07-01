@@ -1,0 +1,51 @@
+<aura:component controller="ContactAdventureController" implements="flexipage:availableForRecordHome,force:hasRecordId"  >
+    <!-- Handle component initialization in a client-side controller -->
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    <!-- Dynamically load the list of campaigns (campaign history) -->
+    <aura:attribute name="allCampaigns" type="CampInvolvment[]"/>
+    <!-- campaignList is the filtered list of campaigns -->
+    <aura:attribute name="campaignList" type="CampInvolvment[]"/>
+    <aura:attribute name="totalCampaigns" type="Integer"/>
+    <aura:attribute name="cRecTypeIds" type="String[]"/>
+    
+    <!-- Page header with a counter that displays total number of contacts -->
+    <div class="slds-p-x_small">
+        <div class="slds-page-header slds-page-header_object-home">
+            <lightning:layout>
+                <lightning:layoutItem>
+                    <lightning:icon iconName="standard:campaign" />
+                </lightning:layoutItem>
+                <lightning:layoutItem class="slds-m-left_small">
+                    <p class="slds-text-title_caps slds-line-height_reset">Adventures &amp; Events</p>
+                    <h1 class="slds-page-header__title slds-p-right_x-small">Adventure Viewer</h1>
+                </lightning:layoutItem>
+            </lightning:layout>
+            
+            <lightning:layout>
+                <lightning:layoutItem>
+                    <p class="slds-text-body_small">{!v.totalCampaigns} Campaigns • View Contact Involvement / filtered by campaign.</p>
+                </lightning:layoutItem>
+            </lightning:layout>
+        </div>
+        
+        <!-- Body with dropdown menu and list of contacts -->
+        <lightning:layout>
+            <lightning:layoutItem padding="horizontal-small" >
+                <!-- Create a dropdown menu with options -->
+                <lightning:select aura:id="select" label="Campaign Type" name="cType" 
+                                  onchange="{!c.handleSelect}" class="slds-m-bottom_medium">
+                    <option value="">-- Select a Campaign Record Type --</option>
+                    <option value="{!v.cRecTypeIds[0]}" text="Adventure"/>
+                    <option value="{!v.cRecTypeIds[1]}" text="Fundraising"/>
+                    <option value="{!v.cRecTypeIds[2]}" text="Volunteer"/>                
+                    <option value="All" text="All"/>
+                </lightning:select>           
+                
+                <!-- Iterate over the list of contacts and display them -->
+                <aura:iteration var="camp" items="{!v.campaignList}">
+                    <c:Adventures camp="{!camp}"/>
+                </aura:iteration>
+            </lightning:layoutItem>
+        </lightning:layout>
+    </div>
+</aura:component>

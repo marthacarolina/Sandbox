@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Enter the miles hiked, cycled, etc during the Adventure. --></help>
+        <label><!-- Activity Miles --></label>
+        <name>Activity_Miles__c</name>
+    </fields>
+    <fields>
+        <label><!-- C&amp;P Account Number --></label>
+        <name>CnP_PaaS__CnP_Account_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- C&amp;P Connect Campaign Link --></label>
+        <name>CnP_PaaS__CnP_Connect_Campaign_Link__c</name>
+    </fields>
+    <fields>
+        <label><!-- C&amp;P Connect Campaign --></label>
+        <name>CnP_PaaS__CnP_Connect_Campaign__c</name>
+    </fields>
+    <fields>
+        <help><!-- Default Selected Item testing feroz --></help>
+        <label><!-- C&amp;P Connect Default Selected Item --></label>
+        <name>CnP_PaaS__CnP_Connect_Default_Selected_Item__c</name>
+    </fields>
+    <fields>
+        <label><!-- C&amp;P Connect Form Name --></label>
+        <name>CnP_PaaS__CnP_Connect_Form_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- C&amp;P Last Update --></label>
+        <name>CnP_PaaS__CnP_Last_Update__c</name>
+    </fields>
+    <fields>
+        <label><!-- C&amp;P Lift Basis --></label>
+        <name>CnP_PaaS__CnP_Lift_Basis__c</name>
+    </fields>
+    <fields>
+        <label><!-- C&amp;P Lift Campaign --></label>
+        <name>CnP_PaaS__CnP_Lift_Campaign__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation><!-- Inactive --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- C&amp;P Lift Landing Page --></label>
+        <name>CnP_PaaS__CnP_Lift_Landing_Page__c</name>
+    </fields>
+    <fields>
+        <label><!-- C&amp;P Lift Life Span --></label>
+        <name>CnP_PaaS__CnP_Lift_Life_Span__c</name>
+    </fields>
+    <fields>
+        <label><!-- C&amp;P Lift Rate --></label>
+        <name>CnP_PaaS__CnP_Lift_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- C&amp;P Patron Rank Max --></label>
+        <name>CnP_PaaS__CnP_Patron_Rank_Max__c</name>
+    </fields>
+    <fields>
+        <label><!-- C&amp;P Patron Rank Min --></label>
+        <name>CnP_PaaS__CnP_Patron_Rank_Min__c</name>
+    </fields>
+    <fields>
+        <label><!-- C&amp;P Payment Maximum Start Amount --></label>
+        <name>CnP_PaaS__CnP_Payment_Maximum_Start_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- C&amp;P Payment Maximum --></label>
+        <name>CnP_PaaS__CnP_Payment_Maximum__c</name>
+    </fields>
+    <fields>
+        <label><!-- C&amp;P Payment Minimum --></label>
+        <name>CnP_PaaS__CnP_Payment_Minimum__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the total amount paid for contracting or reserving the venue for the Activity --></help>
+        <label><!-- Contract/Reservation Fee --></label>
+        <name>Contract_Reservation_Fee__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Message --></label>
+        <name>Email_Message__c</name>
+    </fields>
+    <fields>
+        <help><!-- The fee for the activity type of a campaign of record type Adventure --></help>
+        <label><!-- Fee for Activity --></label>
+        <name>Fee_for_Activity__c</name>
+        <relationshipLabel><!-- Campaigns --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Enter the total paid in fees for this Activity --></help>
+        <label><!-- Fee paid by DA --></label>
+        <name>Fee_paid_by_DA__c</name>
+    </fields>
+    <fields>
+        <help>Die Gesamtanzahl der Freiwilligen, deren Stundenstatus &quot;Abgeleistet&quot; oder &quot;Bestätigt&quot; lautet.</help>
+        <label><!-- Number of Volunteers --></label>
+        <name>GW_Volunteers__Number_of_Volunteers__c</name>
+    </fields>
+    <fields>
+        <help>Gesamtanzahl der Stunden, die abgeleistet wurden  Stunden mit anderen Statuswerten sind nicht enthalten.</help>
+        <label><!-- Volunteer Completed Hours --></label>
+        <name>GW_Volunteers__Volunteer_Completed_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Volunteer Jobs --></label>
+        <name>GW_Volunteers__Volunteer_Jobs__c</name>
+    </fields>
+    <fields>
+        <label><!-- Volunteer Shifts --></label>
+        <name>GW_Volunteers__Volunteer_Shifts__c</name>
+    </fields>
+    <fields>
+        <help>Die Zeitzone für die Anzeige von Schichtzeiten auf Websites  Sie müssen diese Einstellung nur vornehmen, wenn Sie die auf der Site des Gastbenutzerprofils festgelegte Zeitzone überschreiben möchten.</help>
+        <label><!-- Volunteer Website Time Zone --></label>
+        <name>GW_Volunteers__Volunteer_Website_Time_Zone__c</name>
+        <picklistValues>
+            <masterLabel>Africa/Algiers</masterLabel>
+            <translation>Afrika/Algier</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Africa/Cairo</masterLabel>
+            <translation>Afrika/Kairo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Africa/Johannesburg</masterLabel>
+            <translation>Afrika/Johannesburg</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Africa/Nairobi</masterLabel>
+            <translation>Afrika/Nairobi</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>America/Anchorage</masterLabel>
+            <translation>Amerika/Anchorage</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>America/Bogota</masterLabel>
+            <translation>Amerika/Bogota</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>America/Buenos_Aires</masterLabel>
+            <translation>Amerika/Buenos_Aires</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>America/Caracas</masterLabel>
+            <translation>Amerika/Caracas</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>America/Chicago</masterLabel>
+            <translation>Amerika/Chicago</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>America/Denver</masterLabel>
+            <translation>Amerika/Denver</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>America/El_Salvador</masterLabel>
+            <translation>Amerika/El_Salvador</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>America/Halifax</masterLabel>
+            <translation>Amerika/Halifax</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>America/Indianapolis</masterLabel>
+            <translation>Amerika/Indianapolis</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>America/Lima</masterLabel>
+            <translation>Amerika/Lima</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>America/Los_Angeles</masterLabel>
+            <translation>Amerika/Los_Angeles</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>America/Mexico_City</masterLabel>
+            <translation>Amerika/Mexico_City</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>America/New_York</masterLabel>
+            <translation>Amerika/New_York</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>America/Panama</masterLabel>
+            <translation>Amerika/Panama</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>America/Phoenix</masterLabel>
+            <translation>Amerika/Phoenix</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>America/Puerto_Rico</masterLabel>
+            <translation>Amerika/Puerto_Rico</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>America/Santiago</masterLabel>
+            <translation>Amerika/Santiago</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>America/Sao_Paulo</masterLabel>
+            <translation>Amerika/Sao_Paulo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>America/St_Johns</masterLabel>
+            <translation>Amerika/St_Johns</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>America/Tijuana</masterLabel>
+            <translation>Amerika/Tijuana</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asia/Baghdad</masterLabel>
+            <translation>Asien/Baghdad</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asia/Bangkok</masterLabel>
+            <translation>Asien/Bangkok</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asia/Calcutta</masterLabel>
+            <translation>Asien/Kalkutta</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asia/Colombo</masterLabel>
+            <translation>Asien/Colombo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asia/Dacca</masterLabel>
+            <translation>Asien/Dhaka</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asia/Dubai</masterLabel>
+            <translation>Asien/Dubai</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asia/Hong_Kong</masterLabel>
+            <translation>Asien/Hongkong</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asia/Jakarta</masterLabel>
+            <translation>Asien/Jakarta</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asia/Jerusalem</masterLabel>
+            <translation>Asien/Jerusalem</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asia/Kabul</masterLabel>
+            <translation>Asien/Kabul</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asia/Kamchatka</masterLabel>
+            <translation>Asien/Kamtschatka</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asia/Karachi</masterLabel>
+            <translation>Asien/Karachi</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asia/Katmandu</masterLabel>
+            <translation>Asien/Katmandu</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asia/Kuala_Lumpur</masterLabel>
+            <translation>Asien/Kuala_Lumpur</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asia/Kuwait</masterLabel>
+            <translation>Asien/Kuwait</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asia/Manila</masterLabel>
+            <translation>Asien/Manila</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asia/Rangoon</masterLabel>
+            <translation>Asien/Rangun</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asia/Riyadh</masterLabel>
+            <translation>Asien/Riad</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asia/Saigon</masterLabel>
+            <translation>Asien/Saigon</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asia/Seoul</masterLabel>
+            <translation>Asien/Seoul</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asia/Shanghai</masterLabel>
+            <translation>Asien/Shanghai</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asia/Singapore</masterLabel>
+            <translation>Asien/Singapur</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asia/Taipei</masterLabel>
+            <translation>Asien/Taipeh</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asia/Tashkent</masterLabel>
+            <translation>Asien/Taschkent</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asia/Tbilisi</masterLabel>
+            <translation>Asien/Tiflis</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asia/Tehran</masterLabel>
+            <translation>Asien/Teheran</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asia/Tokyo</masterLabel>
+            <translation>Asien/Tokio</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asia/Yekaterinburg</masterLabel>
+            <translation>Asien/Jekaterinburg</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Atlantic/Bermuda</masterLabel>
+            <translation>Atlantik/Bermuda</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Atlantic/Cape_Verde</masterLabel>
+            <translation>Atlantik/Kapverde</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Atlantic/South_Georgia</masterLabel>
+            <translation>Atlantik/Südgeorgien</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Australia/Adelaide</masterLabel>
+            <translation>Australien/Adelaide</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Australia/Brisbane</masterLabel>
+            <translation>Australien/Brisbane</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Australia/Darwin</masterLabel>
+            <translation>Australien/Darwin</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Australia/Lord_Howe</masterLabel>
+            <translation>Australien/Lord_Howe</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Australia/Perth</masterLabel>
+            <translation>Australien/Perth</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Australia/Sydney</masterLabel>
+            <translation>Australien/Sydney</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Europe/Amsterdam</masterLabel>
+            <translation>Europa/Amsterdam</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Europe/Athens</masterLabel>
+            <translation>Europa/Athen</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Europe/Berlin</masterLabel>
+            <translation>Europa/Berlin</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Europe/Brussels</masterLabel>
+            <translation>Europa/Brüssel</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Europe/Bucharest</masterLabel>
+            <translation>Europa/Bukarest</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Europe/Dublin</masterLabel>
+            <translation>Europa/Dublin</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Europe/Helsinki</masterLabel>
+            <translation>Europa/Helsinki</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Europe/Istanbul</masterLabel>
+            <translation>Europa/Istanbul</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Europe/Lisbon</masterLabel>
+            <translation>Europa/Lissabon</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Europe/London</masterLabel>
+            <translation>Europa/London</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Europe/Minsk</masterLabel>
+            <translation>Europa/Minsk</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Europe/Moscow</masterLabel>
+            <translation>Europa/Moskau</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Europe/Paris</masterLabel>
+            <translation>Europa/Paris</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Europe/Prague</masterLabel>
+            <translation>Europa/Prag</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Europe/Rome</masterLabel>
+            <translation>Europa/Rom</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GMT</masterLabel>
+            <translation>MGZ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pacific/Auckland</masterLabel>
+            <translation>Pazifik/Auckland</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pacific/Chatham</masterLabel>
+            <translation>Pazifik/Chatham</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pacific/Enderbury</masterLabel>
+            <translation>Pazifik/Enderbury</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pacific/Fiji</masterLabel>
+            <translation>Pazifik/Fiji</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pacific/Guadalcanal</masterLabel>
+            <translation>Pazifik/Guadalcanal</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pacific/Honolulu</masterLabel>
+            <translation>Pazifik/Honolulu</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pacific/Kiritimati</masterLabel>
+            <translation>Pazifik/Kiritimati</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pacific/Niue</masterLabel>
+            <translation>Pazifik/Niue</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pacific/Norfolk</masterLabel>
+            <translation>Pazifik/Norfolk</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pacific/Pago_Pago</masterLabel>
+            <translation>Pazifik/Pago_Pago</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pacific/Tongatapu</masterLabel>
+            <translation>Pazifik/Tongatapu</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Volunteers Still Needed --></label>
+        <name>GW_Volunteers__Volunteers_Still_Needed__c</name>
+    </fields>
+    <fields>
+        <help><!-- This link is generated in the Google Calendar app. For each event there is a different link. --></help>
+        <label><!-- Google Calendar Link --></label>
+        <name>Google_Calendar_Link__c</name>
+    </fields>
+    <fields>
+        <label><!-- Head Count --></label>
+        <name>Head_Count__c</name>
+    </fields>
+    <fields>
+        <help><!-- Number of Incident Reports filed for this campaign - make sure to upload the incident reports to the files attached to this record. --></help>
+        <label><!-- # Incident Reports --></label>
+        <name>Incident_Reports__c</name>
+    </fields>
+    <fields>
+        <help><!-- The number of Participant Days in this Adventure (this is the days in the adventure multiplied by the total number of people that experienced the adventure - participants, friends and family, caregivers, invitees, volunteers and staff). --></help>
+        <label><!-- Participant Days --></label>
+        <name>Participant_Days__c</name>
+    </fields>
+    <fields>
+        <help><!-- Uncheck this field if you want this event to be private and not show up in the selection in the sign-up public page. --></help>
+        <label><!-- Public Event --></label>
+        <name>Public_Event__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related Campaign --></label>
+        <name>Related_Campaign__c</name>
+        <relationshipLabel><!-- Related Campaign --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Enter the total amount paid to staff for this activity. --></help>
+        <label><!-- Salary and Wages --></label>
+        <name>Salary_Wages__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the total amount paid for supplies for this campaign --></help>
+        <label><!-- Supplies Cost --></label>
+        <name>Supplies_Cost__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the total cost of fuel for transportation --></help>
+        <label><!-- Transportation - Gas --></label>
+        <name>Transportation_Gas__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the total amount paid for rental of transportation --></help>
+        <label><!-- Transportation Rental --></label>
+        <name>Transportation_Rental__c</name>
+    </fields>
+    <layouts>
+        <layout>Adventure Campaign Layout</layout>
+        <sections>
+            <label><!-- Expenses --></label>
+            <section>Expenses</section>
+        </sections>
+        <sections>
+            <label><!-- Fees/Income --></label>
+            <section>Fees/Income</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Benevon Campaign Layout</layout>
+        <sections>
+            <label><!-- Expenses --></label>
+            <section>Expenses</section>
+        </sections>
+        <sections>
+            <label><!-- Fees/Income --></label>
+            <section>Fees/Income</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Adventure --></label>
+        <name>Adventure</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Benevon --></label>
+        <name>Benevon</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Fundraising --></label>
+        <name>Fundraising</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Volunteer Campaign --></label>
+        <name>Volunteers_Campaign</name>
+    </recordTypes>
+    <webLinks>
+        <label><!-- Add_Participants --></label>
+        <name>Add_Participants</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Campaign_Roster --></label>
+        <name>Campaign_Roster</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Change_Participant_Status --></label>
+        <name>Change_Participant_Status</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Virtual_Terminal --></label>
+        <name>CnP_PaaS__Virtual_Terminal</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CampaignRoster --></label>
+        <name>GW_Volunteers__CampaignRoster</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Campaign_Shift_Calendar --></label>
+        <name>GW_Volunteers__Campaign_Shift_Calendar</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Find_Volunteers --></label>
+        <name>GW_Volunteers__Find_Volunteers</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Mass_Email_Volunteers --></label>
+        <name>GW_Volunteers__Mass_Email_Volunteers</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New_Volunteer_Campaign --></label>
+        <name>GW_Volunteers__New_Volunteer_Campaign</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Go_to_Volunteer_Shift --></label>
+        <name>Go_to_Volunteer_Shift</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Link_Campaigns --></label>
+        <name>Link_Campaigns</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New_Adventure --></label>
+        <name>New_Adventure</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Mass_Emails --></label>
+        <name>Send_Mass_Emails</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ViewAllCampaignMembers --></label>
+        <name>ViewAllCampaignMembers</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ViewCampaignInfluenceReport --></label>
+        <name>ViewCampaignInfluenceReport</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Household_Mailing_List --></label>
+        <name>npo02__Household_Mailing_List</name>
+    </webLinks>
+</CustomObjectTranslation>

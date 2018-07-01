@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Medication</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Medications</value>
+    </caseValues>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>Contact_meds__c</name>
+        <relationshipLabel><!-- Medications --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The strength of each dose taken, i.e. 50mg, 10ml etc. --></help>
+        <label><!-- Dose --></label>
+        <name>Dose__c</name>
+    </fields>
+    <fields>
+        <help><!-- How often the medication is taken --></help>
+        <label><!-- Frequency --></label>
+        <name>Frequency__c</name>
+    </fields>
+    <fields>
+        <help><!-- Additional information about the medication, side effects, etc --></help>
+        <label><!-- Notes --></label>
+        <name>Notes__c</name>
+    </fields>
+    <layouts>
+        <layout>Medication Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

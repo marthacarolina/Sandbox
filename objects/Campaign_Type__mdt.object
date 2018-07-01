@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>The campaign types and the CM Status group for each type</description>
+    <fields>
+        <fullName>Status_Group__c</fullName>
+        <description>The group number for the Campaign Member Status group for this Type of campaign</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Status Group</label>
+        <precision>2</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <label>Campaign Type</label>
+    <pluralLabel>Campaign Types</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

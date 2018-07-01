@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Friendly reminder: Your CPR certification on file with Daring Adventures will expire soon</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Volunteers_emails</letterhead>
+    <name>CPR_exp</name>
+    <style>freeForm</style>
+    <subject>Friendly reminder: Your CPR certification on file with {!Organization.Name} will expire soon</subject>
+    <textOnly>Hi {!Contact.FirstName},
+
+
+
+We want to remind you that your CPR certification will expire on {!Contact.CPR_Certificate_Expiration_Date__c}. Please make sure to renew it soon!
+
+
+
+Thanks from all of us at {!Organization.Name}. We will see you soon!
+
+
+
+For any questions, comments or concerns you can contact Brenna or Sarah.
+
+
+
+Brenna Bean, CTRS
+
+Program Coordinator
+
+brenna@daring-adventures.org
+
+602-290-0214 ext. 103
+
+
+
+Sarah Lindvay, CTRS
+
+Healthy Day Recreation Program Coordinator
+
+sarah@daring-adventures.org
+
+(602) 290-0214 ext 1</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

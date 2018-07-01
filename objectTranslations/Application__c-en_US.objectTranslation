@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Application</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Applications</value>
+    </caseValues>
+    <fields>
+        <help><!-- As a condition of being a volunteer DARING ADVENTURES may need to review driving record. --></help>
+        <label><!-- Access to Driving Record --></label>
+        <name>Access_to_Driving_Record__c</name>
+    </fields>
+    <fields>
+        <help><!-- Volunteer Intake: Is there anything else you&apos;d like to share with us about your experience, skills, interests? Do you have any questions? --></help>
+        <label><!-- Anything else to share --></label>
+        <name>Anything_else_to_share__c</name>
+    </fields>
+    <fields>
+        <label><!-- Application Date --></label>
+        <name>Application_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- For example, speaks other language or therapist --></help>
+        <label><!-- Area(s) of Expertise --></label>
+        <name>Area_s_of_Expertise__c</name>
+    </fields>
+    <fields>
+        <help><!-- Participant and Volunteer Intake: I feel comfortable approaching and having a conversation with someone I don&apos;t know. --></help>
+        <label><!-- Comfortable conversing with others --></label>
+        <name>Comfortable_conversing_with_others__c</name>
+    </fields>
+    <fields>
+        <help><!-- Volunteer Intake: I feel comfortable discussing my questions and concerns as well as providing feedback to DA&apos;s staff. --></help>
+        <label><!-- Comfortable discussing with DA --></label>
+        <name>Comfortable_discussing_with_DA__c</name>
+    </fields>
+    <fields>
+        <help><!-- Response to: I am confident with my body and my abilities. --></help>
+        <label><!-- Confident with body and abilities --></label>
+        <name>Confident_with_body_and_abilities__c</name>
+    </fields>
+    <fields>
+        <help><!-- Answer to: I feel comfortable in group settings. --></help>
+        <label><!-- Confortable in group settings --></label>
+        <name>Confortable_in_group_settings__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>Contact__c</name>
+        <relationshipLabel><!-- Applications --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- I am content with my physical mobility, coordination, endurance, strength and/or body weight. --></help>
+        <label><!-- Content With Present State --></label>
+        <name>Content_with_present_state__c</name>
+    </fields>
+    <fields>
+        <help><!-- Answering &quot;yes&quot; does not automatically exclude you from consideration. However, failure to disclose the information will prevent your selection or cause termination. --></help>
+        <label><!-- Criminal Offense --></label>
+        <name>Criminal_Offense__c</name>
+    </fields>
+    <fields>
+        <label><!-- DUI --></label>
+        <name>DUI__c</name>
+    </fields>
+    <fields>
+        <help><!-- Answer to: Through adaptive recreation, I have already discovered a new strength, ability or interest that improves my overall wellbeing. --></help>
+        <label><!-- Discovered Skills for Wellbeing --></label>
+        <name>Discovered_Skills_for_Wellbeing__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employer Email --></label>
+        <name>Employer_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employer Phone --></label>
+        <name>Employer_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employer --></label>
+        <name>Employer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employment Start Date --></label>
+        <name>Employment_Start_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- List of equipment participant/volunteer owns. Response to: (If yes, what equipment? ) --></help>
+        <label><!-- Equipment I Own --></label>
+        <name>Equipment_Participant_Owns__c</name>
+    </fields>
+    <fields>
+        <help><!-- Response to: I feel that I have the freedom to participate in outdoor/adaptive recreation at my leisure. --></help>
+        <label><!-- Freedom to Participate at Leisure --></label>
+        <name>Freedom_to_Participate_at_Leisure__c</name>
+    </fields>
+    <fields>
+        <help><!-- answer to: I have friends that participate in recreation activities with me. --></help>
+        <label><!-- Have Friends Participating --></label>
+        <name>Have_Friends_Participating__c</name>
+    </fields>
+    <fields>
+        <help><!-- Response to: 
+Participant Intake: I have the knowledge and skills to participate in outdoor recreation or adaptive sports independently (outside of Daring Adventures).
+Volunteer Intake: I have the knowledge ands skills to participate in outdoor recreati --></help>
+        <label><!-- Have Knowledge and Skills --></label>
+        <name>Have_Knowledge_and_Skills__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check if response was YES. Question: I own my own equipment to participate in recreation outside of Daring Adventures.
+Volunteer Intake: I own my own outdoor recreation equipment that I can bring and use during DA activities as needed. --></help>
+        <label><!-- Have Own Equipment --></label>
+        <name>Have_Own_Equipment__c</name>
+    </fields>
+    <fields>
+        <help><!-- Volunteer Intake - What do you hope to gain from being a volunteer with DA? Is there anything that we can do to enhance your volunteer experience? --></help>
+        <label><!-- Hope to gain --></label>
+        <name>Hope_to_gain__c</name>
+    </fields>
+    <fields>
+        <help><!-- I think that Daring Adventures activities will appropriately challenge me as an active participant. --></help>
+        <label><!-- I will be challenged --></label>
+        <name>I_will_be_challenged__c</name>
+    </fields>
+    <fields>
+        <help><!-- check if participant has been involved in adaptive recreation before --></help>
+        <label><!-- involved in adaptive rec before? --></label>
+        <name>Involved_Activities__c</name>
+    </fields>
+    <fields>
+        <label><!-- Job Title --></label>
+        <name>Job_Title__c</name>
+    </fields>
+    <fields>
+        <help><!-- Volunteer Intake: I feel comfortable leading small groups of participants. --></help>
+        <label><!-- Leading small groups --></label>
+        <name>Leading_small_groups__c</name>
+    </fields>
+    <fields>
+        <help><!-- Response to Participant Intake: I am motivated to be self-sufficient and as independent as possible in recreation.
+Volunteer Intake: I am motivated to be self-sufficient and feel comfortable taking leadership. --></help>
+        <label><!-- Motivated to be independent --></label>
+        <name>Motivated_to_be_independent__c</name>
+    </fields>
+    <fields>
+        <help><!-- Copy of current automobile insurance and driver&apos;s license (front and back) is required. --></help>
+        <label><!-- Moving Violation --></label>
+        <name>Moving_Violation__c</name>
+    </fields>
+    <fields>
+        <help><!-- Participant and volunteer Intake:  I am open to new experiences and stepping outside my comfort zone. --></help>
+        <label><!-- Open to New Experiences --></label>
+        <name>Open_to_New_Experiences__c</name>
+    </fields>
+    <fields>
+        <help><!-- Response to Participant Intake: I participate in outdoor recreation or adaptive sports outside of Daring Adventures.
+Volunteer Intake: I currently participate in outdoor recreation during my own leisure time. --></help>
+        <label><!-- Participate outside of DA --></label>
+        <name>Participate_outside_of_DA__c</name>
+    </fields>
+    <fields>
+        <help><!-- Response to: Being a participant with Daring Adventures is important to my personal wellbeing. --></help>
+        <label><!-- Participating important for Wellbeing --></label>
+        <name>Participating_important_for_Wellbeing__c</name>
+    </fields>
+    <fields>
+        <help><!-- Volunteer Intake: I feel comfortable working with and assisting people with mental health disorders. --></help>
+        <label><!-- People with mental health disorders --></label>
+        <name>People_with_mental_health_disorders__c</name>
+    </fields>
+    <fields>
+        <help><!-- Volunteer Intake: What is your primary language? --></help>
+        <label><!-- Primary Language --></label>
+        <name>Primary_Language__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reference 1 Email --></label>
+        <name>Reference_1_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reference 1 Name --></label>
+        <name>Reference_1_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reference 1 Phone --></label>
+        <name>Reference_1_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reference 1 Relationship --></label>
+        <name>Reference_1_Relationship__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reference 2 Email --></label>
+        <name>Reference_2_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reference 2 Name --></label>
+        <name>Reference_2_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reference 2 Phone --></label>
+        <name>Reference_2_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reference 2 Relationship --></label>
+        <name>Reference_2_Relationship__c</name>
+    </fields>
+    <fields>
+        <help><!-- Volunteer Intake: Secondary Language --></help>
+        <label><!-- Secondary Language --></label>
+        <name>Secondary_Language__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Accepted</masterLabel>
+            <translation><!-- Accepted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Denied</masterLabel>
+            <translation><!-- Denied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Received</masterLabel>
+            <translation><!-- Received --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Supervisor --></label>
+        <name>Supervisor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vol Medical Conditions Limitations --></label>
+        <name>Vol_Medical_Conditions_Limitations__c</name>
+    </fields>
+    <fields>
+        <help><!-- Volunteer Intake - Why do you want to volunteer with Daring Adventures? --></help>
+        <label><!-- Why volunteer with DA? --></label>
+        <name>Vol_why_volunteer__c</name>
+    </fields>
+    <fields>
+        <help><!-- Volunteer Intake: Have you volunteered in adaptive and/or outdoor recreation before? If yes, what activities? how often? --></help>
+        <label><!-- Volunteered before --></label>
+        <name>Volunteered_before__c</name>
+    </fields>
+    <fields>
+        <label><!-- Worked w/ Individuals w/ Disability --></label>
+        <name>Worked_w_Individuals_w_Disabilitie__c</name>
+    </fields>
+    <fields>
+        <label><!-- Worked w/ at-risk Teens --></label>
+        <name>Worked_w_at_risk_Teens__c</name>
+    </fields>
+    <fields>
+        <help><!-- Volunteer Intake: I feel comfortable working with and assisting people with COGNITIVE and/or DEVELOPMENTAL DISABILITIES. --></help>
+        <label><!-- Working cognitive disabilities --></label>
+        <name>Working_cognitive_disabilities__c</name>
+    </fields>
+    <fields>
+        <help><!-- Volunteer Intake: I feel comfortable working with and assisting people with Physical disabilities. --></help>
+        <label><!-- Comfortable working with disabilities --></label>
+        <name>Working_physica_disabilities__c</name>
+    </fields>
+    <fields>
+        <help><!-- Volunteer Intake: I feel comfortable working with and assisting people with BEHAVIORAL disorders. --></help>
+        <label><!-- People with behavioral disorders --></label>
+        <name>Working_with_behavioral_disorders__c</name>
+    </fields>
+    <fields>
+        <help><!-- Type the answer to - If yes, what activities? how often? --></help>
+        <label><!-- What activities? --></label>
+        <name>what_activities_involved__c</name>
+    </fields>
+    <fields>
+        <help><!-- Volunteer intake: I am comfortable working one-on-one with participants. --></help>
+        <label><!-- working one-on-one --></label>
+        <name>working_one_on_one__c</name>
+    </fields>
+    <layouts>
+        <layout>Participant Application Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Have you been Involved in Adaptive/Outdoor Recreation Before? --></label>
+            <section>Have you been Involved in Adaptive/Outdoor Recreation Before?</section>
+        </sections>
+        <sections>
+            <label><!-- Physical Wellbeing --></label>
+            <section>Physical Wellbeing</section>
+        </sections>
+        <sections>
+            <label><!-- Recreation Participation --></label>
+            <section>Recreation Participation</section>
+        </sections>
+        <sections>
+            <label><!-- Registration --></label>
+            <section>Registration</section>
+        </sections>
+        <sections>
+            <label><!-- Self-Concept --></label>
+            <section>Self-Concept</section>
+        </sections>
+        <sections>
+            <label><!-- Social Skills --></label>
+            <section>Social Skills</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Volunteer Application Layout</layout>
+        <sections>
+            <label><!-- Current Employment/Education --></label>
+            <section>Current Employment/Education</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Disability Experience --></label>
+            <section>Disability Experience</section>
+        </sections>
+        <sections>
+            <label><!-- Leadership Skills --></label>
+            <section>Leadership Skills</section>
+        </sections>
+        <sections>
+            <label><!-- Optional --></label>
+            <section>Optional</section>
+        </sections>
+        <sections>
+            <label><!-- Personal History --></label>
+            <section>Personal History</section>
+        </sections>
+        <sections>
+            <label><!-- Personal References --></label>
+            <section>Personal References</section>
+        </sections>
+        <sections>
+            <label><!-- Recreation Participation --></label>
+            <section>Recreation Participation</section>
+        </sections>
+        <sections>
+            <label><!-- Volunteer Assessment Information --></label>
+            <section>Volunteer Assessment Information</section>
+        </sections>
+        <sections>
+            <label><!-- Volunteer Contribution --></label>
+            <section>Volunteer Contribution</section>
+        </sections>
+        <sections>
+            <label><!-- Volunteer Interest Assessment --></label>
+            <section>Volunteer Interest Assessment</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Participant Application --></label>
+        <name>Participant_Application</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Volunteer Application --></label>
+        <name>Volunteer_Application</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

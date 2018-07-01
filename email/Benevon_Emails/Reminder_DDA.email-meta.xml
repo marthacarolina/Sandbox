@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>An email that goes to the contact to remind them of a DDA event.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Reminder DDA</name>
+    <style>freeForm</style>
+    <subject>Don&apos;t forget, {!CampaignMember.Campaign} will be soon!</subject>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Click &amp; Pledge Error Notification Email</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>CnP_PaaS__Click_Pledge_2</letterhead>
+    <name>Click &amp; Pledge Error Template 9.7008</name>
+    <style>formalLetter</style>
+    <subject>Error Report : {!Organization.Name}--{!CnP_PaaS__CnPData__c.CnP_PaaS__Name__c}</subject>
+    <textOnly>Date: {!CnP_PaaS__CnPData__c.CreatedDate}
+
+Hi {!CnP_PaaS__CnPData__c.OwnerFullName}, Sorry, but we have encountered an error while posting the data to your Salesforce account.
+
+Additional information:
+
+Order number:  {!CnP_PaaS__CnPData__c.CnP_PaaS__OrderNumber__c}
+Contact name: {!CnP_PaaS__CnPData__c.CnP_PaaS__Contact__c}
+Transaction Result: {!CnP_PaaS__CnPData__c.CnP_PaaS__Transaction_Result__c}
+C&amp;P Data ID: {!CnP_PaaS__CnPData__c.CnP_PaaS__CnPDataID__c}
+Organization ID: {!Organization.Id}
+Organization Name: {!Organization.Name}
+Applications : {!CnP_PaaS__CnPData__c.CnP_PaaS__Installed_Apps__c}
+
+System response:
+
+&quot;{!CnP_PaaS__CnPData__c.CnP_PaaS__Message__c}&quot;
+
+Please check the following link for details:
+
+{!CnP_PaaS__CnPData__c.Link}
+
+If you need further assistance please submit a support ticket at http://Help.ClickandPledge.com
+
+Regards,
+Click &amp; Pledge Development Team
+Salesforce Group</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

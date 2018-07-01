@@ -1,0 +1,18 @@
+<apex:page controller="RetUrlSearchController2">
+  <apex:form >
+    <apex:pageBlock >
+      <apex:pageBlockSection title="Criteria">
+      <apex:outputLabel value="Enter a name or last name to look for"/>
+      <apex:inputText value="{!nameQuery}"/>
+      <apex:commandButton action="{!executeSearch}" value="Search"/>
+   </apex:pageBlockSection>
+    
+   <apex:pageBlockTable value="{!contacts}" var="con">
+      <apex:column headerValue="Name">
+         <apex:outputLink value="/{!con.id}/e?retURL={!URLENCODE('/apex/selectFromList2?query='+nameQuery)}">{!con.Name}</apex:outputLink>
+      </apex:column>
+      <apex:column value="{!con.Participant__c}"/>
+   </apex:pageBlockTable>
+ </apex:pageBlock>
+  </apex:form>
+</apex:page>

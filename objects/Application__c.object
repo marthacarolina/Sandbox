@@ -1,0 +1,1718 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Participant or Volunteer Application and Waiver Form</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Access_to_Driving_Record__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>May DARING ADVENTURES have access to your driving record?</description>
+        <externalId>false</externalId>
+        <inlineHelpText>As a condition of being a volunteer DARING ADVENTURES may need to review driving record.</inlineHelpText>
+        <label>Access to Driving Record</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Anything_else_to_share__c</fullName>
+        <description>Volunteer Intake: Is there anything else you&apos;d like to share with us about your experience, skills, interests? Do you have any questions?</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Volunteer Intake: Is there anything else you&apos;d like to share with us about your experience, skills, interests? Do you have any questions?</inlineHelpText>
+        <label>Anything else to share</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Application_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Application Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Area_s_of_Expertise__c</fullName>
+        <description>Describe volunteer&apos;s area of experties</description>
+        <externalId>false</externalId>
+        <inlineHelpText>For example, speaks other language or therapist</inlineHelpText>
+        <label>Area(s) of Expertise</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Comfortable_conversing_with_others__c</fullName>
+        <description>Participant and Volunteer Intake: I feel comfortable approaching and having a conversation with someone I don&apos;t know.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Participant and Volunteer Intake: I feel comfortable approaching and having a conversation with someone I don&apos;t know.</inlineHelpText>
+        <label>Comfortable conversing with others</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Level_of_Agreement</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Comfortable_discussing_with_DA__c</fullName>
+        <description>Volunteer Intake: I feel comfortable discussing my questions and concerns as well as providing feedback to DA&apos;s staff.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Volunteer Intake: I feel comfortable discussing my questions and concerns as well as providing feedback to DA&apos;s staff.</inlineHelpText>
+        <label>Comfortable discussing with DA</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Level_of_Agreement</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Confident_with_body_and_abilities__c</fullName>
+        <description>Response to: I am confident with my body and my abilities.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Response to: I am confident with my body and my abilities.</inlineHelpText>
+        <label>Confident with body and abilities</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Level_of_Agreement</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Confortable_in_group_settings__c</fullName>
+        <description>The participant feels comfortable in group settings.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Answer to: I feel comfortable in group settings.</inlineHelpText>
+        <label>Confortable in group settings</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Level_of_Agreement</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Contact__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Contact</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Applications</relationshipLabel>
+        <relationshipName>Applications</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Content_with_present_state__c</fullName>
+        <description>I am content with my physical mobility, coordination, endurance, strength and/or body weight.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>I am content with my physical mobility, coordination, endurance, strength and/or body weight.</inlineHelpText>
+        <label>Content With Present State</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Level_of_Agreement</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Criminal_Offense__c</fullName>
+        <description>Have you ever been found guilty, pled guilty or no contest, been convicted, paid a fine, served probation or served any type of sentence for any crime or offense other than minor traffic violations or juvenile offenses? If yes, please explain.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Answering &quot;yes&quot; does not automatically exclude you from consideration. However, failure to disclose the information will prevent your selection or cause termination.</inlineHelpText>
+        <label>Criminal Offense</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>DUI__c</fullName>
+        <description>This field is no longer in use as of 1/1/17 (not in Volunteer Intake form) 
+Have you had a DUI in the last 5 years? If yes, please explain.</description>
+        <externalId>false</externalId>
+        <label>DUI</label>
+        <length>500</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Discovered_Skills_for_Wellbeing__c</fullName>
+        <description>Through adaptive recreation, Participant has already discovered a new strength, ability or interest that improves his/her overall wellbeing.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Answer to: Through adaptive recreation, I have already discovered a new strength, ability or interest that improves my overall wellbeing.</inlineHelpText>
+        <label>Discovered Skills for Wellbeing</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Level_of_Agreement</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Employer_Email__c</fullName>
+        <externalId>false</externalId>
+        <label>Employer Email</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Employer_Phone__c</fullName>
+        <externalId>false</externalId>
+        <label>Employer Phone</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>Employer__c</fullName>
+        <externalId>false</externalId>
+        <label>Employer</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Employment_Start_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Employment Start Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Equipment_Participant_Owns__c</fullName>
+        <description>List of equipment participant/volunteer owns. Response to: (If yes, what equipment? )</description>
+        <externalId>false</externalId>
+        <inlineHelpText>List of equipment participant/volunteer owns. Response to: (If yes, what equipment? )</inlineHelpText>
+        <label>Equipment I Own</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Freedom_to_Participate_at_Leisure__c</fullName>
+        <description>Response to: I feel that I have the freedom to participate in outdoor/adaptive recreation at my leisure.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Response to: I feel that I have the freedom to participate in outdoor/adaptive recreation at my leisure.</inlineHelpText>
+        <label>Freedom to Participate at Leisure</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Level_of_Agreement</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Have_Friends_Participating__c</fullName>
+        <description>Participant has friends that participate in recreation activities with him/her.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>answer to: I have friends that participate in recreation activities with me.</inlineHelpText>
+        <label>Have Friends Participating</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Level_of_Agreement</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Have_Knowledge_and_Skills__c</fullName>
+        <description>Response to: 
+Participant Intake: I have the knowledge and skills to participate in outdoor recreation or adaptive sports independently (outside of Daring Adventures).
+Volunteer Intake: I have the knowledge ands skills to participate in outdoor recreation or adaptive sports independently.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Response to: 
+Participant Intake: I have the knowledge and skills to participate in outdoor recreation or adaptive sports independently (outside of Daring Adventures).
+Volunteer Intake: I have the knowledge ands skills to participate in outdoor recreati</inlineHelpText>
+        <label>Have Knowledge and Skills</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Level_of_Agreement</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Have_Own_Equipment__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Check if response was YES. Participant Question: I own my own equipment to participate in recreation outside of Daring Adventures.
+Volunteer Intake: I own my own outdoor recreation equipment that I can bring and use during DA activities as needed.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Check if response was YES. Question: I own my own equipment to participate in recreation outside of Daring Adventures.
+Volunteer Intake: I own my own outdoor recreation equipment that I can bring and use during DA activities as needed.</inlineHelpText>
+        <label>Have Own Equipment</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Hope_to_gain__c</fullName>
+        <description>Volunteer Intake - What do you hope to gain from being a volunteer with DA? Is there anything that we can do to enhance your volunteer experience?</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Volunteer Intake - What do you hope to gain from being a volunteer with DA? Is there anything that we can do to enhance your volunteer experience?</inlineHelpText>
+        <label>Hope to gain</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>I_will_be_challenged__c</fullName>
+        <description>I think that Daring Adventures activities will appropriately challenge me as an active participant.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>I think that Daring Adventures activities will appropriately challenge me as an active participant.</inlineHelpText>
+        <label>I will be challenged</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Level_of_Agreement</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Involved_Activities__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Have you been involved in adaptive recreation/outdoor recreation before?</description>
+        <externalId>false</externalId>
+        <inlineHelpText>check if participant has been involved in adaptive recreation before</inlineHelpText>
+        <label>involved in adaptive rec before?</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Job_Title__c</fullName>
+        <externalId>false</externalId>
+        <label>Job Title</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Leading_small_groups__c</fullName>
+        <description>Volunteer Intake: I feel comfortable leading small groups of participants.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Volunteer Intake: I feel comfortable leading small groups of participants.</inlineHelpText>
+        <label>Leading small groups</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Level_of_Agreement</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Motivated_to_be_independent__c</fullName>
+        <description>Response to Participant Intake: I am motivated to be self-sufficient and as independent as possible in recreation.
+Volunteer Intake: I am motivated to be self-sufficient and feel comfortable taking leadership.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Response to Participant Intake: I am motivated to be self-sufficient and as independent as possible in recreation.
+Volunteer Intake: I am motivated to be self-sufficient and feel comfortable taking leadership.</inlineHelpText>
+        <label>Motivated to be independent</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Level_of_Agreement</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Moving_Violation__c</fullName>
+        <description>Have you had a moving violation in the last 3 years? If yes, please explain.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Copy of current automobile insurance and driver&apos;s license (front and back) is required.</inlineHelpText>
+        <label>Moving Violation</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Open_to_New_Experiences__c</fullName>
+        <description>Participant and volunteer Intake:  I am open to new experiences and stepping outside my comfort zone.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Participant and volunteer Intake:  I am open to new experiences and stepping outside my comfort zone.</inlineHelpText>
+        <label>Open to New Experiences</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Level_of_Agreement</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Participate_outside_of_DA__c</fullName>
+        <description>Response to Participant Intake: I participate in outdoor recreation or adaptive sports outside of Daring Adventures.
+Volunteer Intake: I currently participate in outdoor recreation during my own leisure time.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Response to Participant Intake: I participate in outdoor recreation or adaptive sports outside of Daring Adventures.
+Volunteer Intake: I currently participate in outdoor recreation during my own leisure time.</inlineHelpText>
+        <label>Participate outside of DA</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Level_of_Agreement</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Participating_important_for_Wellbeing__c</fullName>
+        <description>Response to: Being a participant with Daring Adventures is important to my personal wellbeing.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Response to: Being a participant with Daring Adventures is important to my personal wellbeing.</inlineHelpText>
+        <label>Participating important for Wellbeing</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Level_of_Agreement</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>People_with_mental_health_disorders__c</fullName>
+        <description>Volunteer Intake: I feel comfortable working with and assisting people with mental health disorders.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Volunteer Intake: I feel comfortable working with and assisting people with mental health disorders.</inlineHelpText>
+        <label>People with mental health disorders</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Level_of_Agreement</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Primary_Language__c</fullName>
+        <description>Volunteer Intake: What is your primary language?</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Volunteer Intake: What is your primary language?</inlineHelpText>
+        <label>Primary Language</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Reference_1_Email__c</fullName>
+        <externalId>false</externalId>
+        <label>Reference 1 Email</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Reference_1_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Reference 1 Name</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Reference_1_Phone__c</fullName>
+        <externalId>false</externalId>
+        <label>Reference 1 Phone</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>Reference_1_Relationship__c</fullName>
+        <externalId>false</externalId>
+        <label>Reference 1 Relationship</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Reference_2_Email__c</fullName>
+        <externalId>false</externalId>
+        <label>Reference 2 Email</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Reference_2_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Reference 2 Name</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Reference_2_Phone__c</fullName>
+        <externalId>false</externalId>
+        <label>Reference 2 Phone</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>Reference_2_Relationship__c</fullName>
+        <externalId>false</externalId>
+        <label>Reference 2 Relationship</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Secondary_Language__c</fullName>
+        <description>Volunteer Intake: Secondary Language</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Volunteer Intake: Secondary Language</inlineHelpText>
+        <label>Secondary Language</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>In Progress</fullName>
+                    <default>false</default>
+                    <label>In Progress</label>
+                </value>
+                <value>
+                    <fullName>Received</fullName>
+                    <default>false</default>
+                    <label>Received</label>
+                </value>
+                <value>
+                    <fullName>Accepted</fullName>
+                    <default>false</default>
+                    <label>Accepted</label>
+                </value>
+                <value>
+                    <fullName>Denied</fullName>
+                    <default>false</default>
+                    <label>Denied</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Supervisor__c</fullName>
+        <externalId>false</externalId>
+        <label>Supervisor</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vol_Medical_Conditions_Limitations__c</fullName>
+        <description>Volunteer Intake: Do you have any medical conditions, injuries, or limitations we should know about?</description>
+        <externalId>false</externalId>
+        <label>Vol Medical Conditions Limitations</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Vol_why_volunteer__c</fullName>
+        <description>Volunteer Intake - Why do you want to volunteer with Daring Adventures?</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Volunteer Intake - Why do you want to volunteer with Daring Adventures?</inlineHelpText>
+        <label>Why volunteer with DA?</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Volunteered_before__c</fullName>
+        <description>Volunteer Intake: Have you volunteered in adaptive and/or outdoor recreation before? If yes, what activities? how often?</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Volunteer Intake: Have you volunteered in adaptive and/or outdoor recreation before? If yes, what activities? how often?</inlineHelpText>
+        <label>Volunteered before</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Worked_w_Individuals_w_Disabilitie__c</fullName>
+        <description>Do you have experience working with individuals with disabilities? If yes, please explain.</description>
+        <externalId>false</externalId>
+        <label>Worked w/ Individuals w/ Disability</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Worked_w_at_risk_Teens__c</fullName>
+        <description>Do you have experience working with at-risk teens and/or teens with disabilities? If yes, please explain.</description>
+        <externalId>false</externalId>
+        <label>Worked w/ at-risk Teens</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Working_cognitive_disabilities__c</fullName>
+        <description>Volunteer Intake: I feel comfortable working with and assisting people with COGNITIVE and/or DEVELOPMENTAL DISABILITIES.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Volunteer Intake: I feel comfortable working with and assisting people with COGNITIVE and/or DEVELOPMENTAL DISABILITIES.</inlineHelpText>
+        <label>Working cognitive disabilities</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Level_of_Agreement</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Working_physica_disabilities__c</fullName>
+        <description>Volunteer Intake: I feel comfortable working with and assisting people with Physical disabilities.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Volunteer Intake: I feel comfortable working with and assisting people with Physical disabilities.</inlineHelpText>
+        <label>Comfortable working with disabilities</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Level_of_Agreement</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Working_with_behavioral_disorders__c</fullName>
+        <description>Volunteer Intake: I feel comfortable working with and assisting people with BEHAVIORAL disorders.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Volunteer Intake: I feel comfortable working with and assisting people with BEHAVIORAL disorders.</inlineHelpText>
+        <label>People with behavioral disorders</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Level_of_Agreement</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>what_activities_involved__c</fullName>
+        <description>What activities was the participant involved before (adaptive rec)</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Type the answer to - If yes, what activities? how often?</inlineHelpText>
+        <label>What activities?</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>working_one_on_one__c</fullName>
+        <description>Volunteer intake: I am comfortable working one-on-one with participants.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Volunteer intake: I am comfortable working one-on-one with participants.</inlineHelpText>
+        <label>working one-on-one</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Level_of_Agreement</valueSetName>
+        </valueSet>
+    </fields>
+    <label>Application</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>Contact__c</columns>
+        <columns>Application_Date__c</columns>
+        <columns>Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <listViews>
+        <fullName>This_Week_s_Applications</fullName>
+        <columns>NAME</columns>
+        <columns>Contact__c</columns>
+        <columns>Status__c</columns>
+        <columns>Application_Date__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Application_Date__c</field>
+            <operation>equals</operation>
+            <value>THIS_WEEK</value>
+        </filters>
+        <label>This Week&apos;s Applications</label>
+    </listViews>
+    <nameField>
+        <displayFormat>A-{0000}</displayFormat>
+        <label>Application Number</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Applications</pluralLabel>
+    <recordTypes>
+        <fullName>Participant_Application</fullName>
+        <active>true</active>
+        <description>Use this record type to enter information about a participant&apos;s registration form and waiver.</description>
+        <label>Participant Application</label>
+        <picklistValues>
+            <picklist>Comfortable_conversing_with_others__c</picklist>
+            <values>
+                <fullName>Agree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Disagree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strongly Agree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strongly Disagree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Undecided</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Comfortable_discussing_with_DA__c</picklist>
+            <values>
+                <fullName>Agree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Disagree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strongly Agree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strongly Disagree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Undecided</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Confident_with_body_and_abilities__c</picklist>
+            <values>
+                <fullName>Agree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Disagree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strongly Agree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strongly Disagree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Undecided</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Confortable_in_group_settings__c</picklist>
+            <values>
+                <fullName>Agree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Disagree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strongly Agree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strongly Disagree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Undecided</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Content_with_present_state__c</picklist>
+            <values>
+                <fullName>Agree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Disagree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strongly Agree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strongly Disagree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Undecided</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Discovered_Skills_for_Wellbeing__c</picklist>
+            <values>
+                <fullName>Agree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Disagree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strongly Agree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strongly Disagree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Undecided</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Freedom_to_Participate_at_Leisure__c</picklist>
+            <values>
+                <fullName>Agree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Disagree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strongly Agree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strongly Disagree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Undecided</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Have_Friends_Participating__c</picklist>
+            <values>
+                <fullName>Agree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Disagree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strongly Agree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strongly Disagree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Undecided</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Have_Knowledge_and_Skills__c</picklist>
+            <values>
+                <fullName>Agree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Disagree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strongly Agree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strongly Disagree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Undecided</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>I_will_be_challenged__c</picklist>
+            <values>
+                <fullName>Agree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Disagree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strongly Agree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strongly Disagree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Undecided</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Leading_small_groups__c</picklist>
+            <values>
+                <fullName>Agree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Disagree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strongly Agree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strongly Disagree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Undecided</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Motivated_to_be_independent__c</picklist>
+            <values>
+                <fullName>Agree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Disagree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strongly Agree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strongly Disagree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Undecided</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Open_to_New_Experiences__c</picklist>
+            <values>
+                <fullName>Agree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Disagree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strongly Agree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strongly Disagree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Undecided</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Participate_outside_of_DA__c</picklist>
+            <values>
+                <fullName>Agree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Disagree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strongly Agree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strongly Disagree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Undecided</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Participating_important_for_Wellbeing__c</picklist>
+            <values>
+                <fullName>Agree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Disagree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strongly Agree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strongly Disagree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Undecided</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>People_with_mental_health_disorders__c</picklist>
+            <values>
+                <fullName>Agree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Disagree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strongly Agree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strongly Disagree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Undecided</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Accepted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Denied</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Received</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Working_cognitive_disabilities__c</picklist>
+            <values>
+                <fullName>Agree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Disagree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strongly Agree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strongly Disagree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Undecided</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Working_physica_disabilities__c</picklist>
+            <values>
+                <fullName>Agree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Disagree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strongly Agree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strongly Disagree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Undecided</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Working_with_behavioral_disorders__c</picklist>
+            <values>
+                <fullName>Agree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Disagree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strongly Agree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strongly Disagree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Undecided</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>working_one_on_one__c</picklist>
+            <values>
+                <fullName>Agree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Disagree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strongly Agree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strongly Disagree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Undecided</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Volunteer_Application</fullName>
+        <active>true</active>
+        <description>Use this record type to enter information about volunteer&apos;s application and waiver form.</description>
+        <label>Volunteer Application</label>
+        <picklistValues>
+            <picklist>Comfortable_conversing_with_others__c</picklist>
+            <values>
+                <fullName>Agree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Disagree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strongly Agree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strongly Disagree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Undecided</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Comfortable_discussing_with_DA__c</picklist>
+            <values>
+                <fullName>Agree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Disagree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strongly Agree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strongly Disagree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Undecided</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Confident_with_body_and_abilities__c</picklist>
+            <values>
+                <fullName>Agree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Disagree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strongly Agree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strongly Disagree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Undecided</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Confortable_in_group_settings__c</picklist>
+            <values>
+                <fullName>Agree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Disagree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strongly Agree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strongly Disagree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Undecided</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Content_with_present_state__c</picklist>
+            <values>
+                <fullName>Agree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Disagree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strongly Agree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strongly Disagree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Undecided</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Discovered_Skills_for_Wellbeing__c</picklist>
+            <values>
+                <fullName>Agree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Disagree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strongly Agree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strongly Disagree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Undecided</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Freedom_to_Participate_at_Leisure__c</picklist>
+            <values>
+                <fullName>Agree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Disagree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strongly Agree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strongly Disagree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Undecided</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Have_Friends_Participating__c</picklist>
+            <values>
+                <fullName>Agree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Disagree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strongly Agree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strongly Disagree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Undecided</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Have_Knowledge_and_Skills__c</picklist>
+            <values>
+                <fullName>Agree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Disagree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strongly Agree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strongly Disagree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Undecided</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>I_will_be_challenged__c</picklist>
+            <values>
+                <fullName>Agree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Disagree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strongly Agree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strongly Disagree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Undecided</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Leading_small_groups__c</picklist>
+            <values>
+                <fullName>Agree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Disagree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strongly Agree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strongly Disagree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Undecided</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Motivated_to_be_independent__c</picklist>
+            <values>
+                <fullName>Agree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Disagree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strongly Agree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strongly Disagree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Undecided</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Open_to_New_Experiences__c</picklist>
+            <values>
+                <fullName>Agree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Disagree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strongly Agree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strongly Disagree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Undecided</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Participate_outside_of_DA__c</picklist>
+            <values>
+                <fullName>Agree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Disagree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strongly Agree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strongly Disagree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Undecided</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Participating_important_for_Wellbeing__c</picklist>
+            <values>
+                <fullName>Agree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Disagree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strongly Agree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strongly Disagree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Undecided</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>People_with_mental_health_disorders__c</picklist>
+            <values>
+                <fullName>Agree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Disagree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strongly Agree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strongly Disagree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Undecided</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Accepted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Denied</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Received</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Working_cognitive_disabilities__c</picklist>
+            <values>
+                <fullName>Agree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Disagree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strongly Agree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strongly Disagree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Undecided</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Working_physica_disabilities__c</picklist>
+            <values>
+                <fullName>Agree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Disagree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strongly Agree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strongly Disagree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Undecided</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Working_with_behavioral_disorders__c</picklist>
+            <values>
+                <fullName>Agree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Disagree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strongly Agree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strongly Disagree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Undecided</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>working_one_on_one__c</picklist>
+            <values>
+                <fullName>Agree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Disagree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strongly Agree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strongly Disagree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Undecided</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts>
+        <customTabListAdditionalFields>Contact__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Application_Date__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Status__c</customTabListAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

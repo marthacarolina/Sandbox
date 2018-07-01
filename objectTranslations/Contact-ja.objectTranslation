@@ -1,0 +1,1803 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Check if participant needs assistance with ADL. --></help>
+        <label><!-- ADL Assistance --></label>
+        <name>ADL_Assitance__c</name>
+    </fields>
+    <fields>
+        <help><!-- Age at which contact acquired the disability. --></help>
+        <label><!-- Acquired at Age --></label>
+        <name>Acquired_at_Age__c</name>
+        <picklistValues>
+            <masterLabel>0-10</masterLabel>
+            <translation><!-- 0-10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11-20</masterLabel>
+            <translation><!-- 11-20 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>21-30</masterLabel>
+            <translation><!-- 21-30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>31-40</masterLabel>
+            <translation><!-- 31-40 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>41-50</masterLabel>
+            <translation><!-- 41-50 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>51+</masterLabel>
+            <translation><!-- 51+ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Activities --></label>
+        <name>Activities__c</name>
+        <picklistValues>
+            <masterLabel>Backpacking</masterLabel>
+            <translation><!-- Backpacking --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Camping</masterLabel>
+            <translation><!-- Camping --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cross-Country Skiing</masterLabel>
+            <translation><!-- Cross-Country Skiing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cycling</masterLabel>
+            <translation><!-- Cycling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fundraising</masterLabel>
+            <translation><!-- Fundraising --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Healthy Day Recreation</masterLabel>
+            <translation><!-- Healthy Day Recreation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hiking</masterLabel>
+            <translation><!-- Hiking --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kayaking</masterLabel>
+            <translation><!-- Kayaking --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Office Administration/Data Entry</masterLabel>
+            <translation><!-- Office Administration/Data Entry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>River Running (adult trips)</masterLabel>
+            <translation><!-- River Running (adult trips) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>River Running (teen trips)</masterLabel>
+            <translation><!-- River Running (teen trips) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service projects (trail cleaning, etc.)</masterLabel>
+            <translation><!-- Service projects (trail cleaning, etc.) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Social Media/Technology</masterLabel>
+            <translation><!-- Social Media/Technology --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Special Events/Outreach</masterLabel>
+            <translation><!-- Special Events/Outreach --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Working with teens/mentoring</masterLabel>
+            <translation><!-- Working with teens/mentoring --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Additional Info Related to Medication --></label>
+        <name>Addition_Info_Related_to_Medication__c</name>
+    </fields>
+    <fields>
+        <help><!-- Anything else the participant would like you to know regarding his/her disability. --></help>
+        <label><!-- Additional Info --></label>
+        <name>Additional_Info_Related_to_Disability__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is the age of the contact calculated from the Date of Birth --></help>
+        <label><!-- Age --></label>
+        <name>Age__c</name>
+    </fields>
+    <fields>
+        <help><!-- List all allergies including food, airborne, animal, etc. --></help>
+        <label><!-- Allergies --></label>
+        <name>Allergies__c</name>
+    </fields>
+    <fields>
+        <label><!-- Amount Taken --></label>
+        <name>Amount_Taken__c</name>
+    </fields>
+    <fields>
+        <label><!-- Area of Expertise --></label>
+        <name>Area_of_Expertise__c</name>
+    </fields>
+    <fields>
+        <help><!-- Assistive technology used for sensory sensitivities. --></help>
+        <label><!-- Assistive Tech --></label>
+        <name>Assistive_Tech__c</name>
+    </fields>
+    <fields>
+        <label><!-- Attention to Task --></label>
+        <name>Attention_to_Task__c</name>
+        <picklistValues>
+            <masterLabel>Average (5+ minutes)</masterLabel>
+            <translation><!-- Average (5+ minutes) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fair (1 - 5 minutes)</masterLabel>
+            <translation><!-- Fair (1 - 5 minutes) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Poor (0 - 1 minute)</masterLabel>
+            <translation><!-- Poor (0 - 1 minute) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Describe general balance of the individual --></help>
+        <label><!-- Balance --></label>
+        <name>Balance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Behavior Details --></label>
+        <name>Behavior_Details__c</name>
+    </fields>
+    <fields>
+        <help><!-- Pick from the list according to the participant intake. --></help>
+        <label><!-- Behavior --></label>
+        <name>Behavior__c</name>
+        <picklistValues>
+            <masterLabel>Aggression</masterLabel>
+            <translation><!-- Aggression --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Injurious towards others</masterLabel>
+            <translation><!-- Injurious towards others --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No concerns</masterLabel>
+            <translation><!-- No concerns --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Property destruction</masterLabel>
+            <translation><!-- Property destruction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Runs away</masterLabel>
+            <translation><!-- Runs away --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Self stimulating</masterLabel>
+            <translation><!-- Self stimulating --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Self-injurious</masterLabel>
+            <translation><!-- Self-injurious --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unusual or repetitive behaviors</masterLabel>
+            <translation><!-- Unusual or repetitive behaviors --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- When checked the participant requires 1:1 behavioral support. --></help>
+        <label><!-- Behavioral Support 1:1 --></label>
+        <name>Behavioral_Support__c</name>
+    </fields>
+    <fields>
+        <help><!-- Based on household size, annual income is below the amounts listed. --></help>
+        <label><!-- Below Amount Listed --></label>
+        <name>Below_Amount_Listed__c</name>
+    </fields>
+    <fields>
+        <help><!-- What is the status of the contact within the Benevon Model. If blank then the contact is not part of our Benevon effort yet. --></help>
+        <label><!-- Benevon Status --></label>
+        <name>Benevon_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Branch of Military --></label>
+        <name>Branch_of_Military__c</name>
+        <picklistValues>
+            <masterLabel>Air Force</masterLabel>
+            <translation><!-- Air Force --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Army</masterLabel>
+            <translation><!-- Army --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Coast Guard</masterLabel>
+            <translation><!-- Coast Guard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marine Corps</masterLabel>
+            <translation><!-- Marine Corps --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Navy</masterLabel>
+            <translation><!-- Navy --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- CPR Expiration Date --></label>
+        <name>CPR_Certificate_Expiration_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check if the volunteer has a CPR Certification. --></help>
+        <label><!-- CPR Certificate --></label>
+        <name>CPR_Certificate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Caregiver --></label>
+        <name>Caregiver__c</name>
+    </fields>
+    <fields>
+        <label><!-- C&amp;P Alias Contact Data --></label>
+        <name>CnP_PaaS__Alias_Contact_Data__c</name>
+    </fields>
+    <fields>
+        <label><!-- C&amp;P Connect Alias --></label>
+        <name>CnP_PaaS__CnP_Connect_Alias_Index__c</name>
+    </fields>
+    <fields>
+        <label><!-- C&amp;P Patron Rank --></label>
+        <name>CnP_PaaS__CnP_Global_Rank__c</name>
+    </fields>
+    <fields>
+        <label><!-- C&amp;P Lift Expiration date --></label>
+        <name>CnP_PaaS__CnP_Lift_Expiration_date__c</name>
+    </fields>
+    <fields>
+        <label><!-- C&amp;P Average Payment --></label>
+        <name>CnP_PaaS__CnP_Payment_Average__c</name>
+    </fields>
+    <fields>
+        <label><!-- C&amp;P Last Payment --></label>
+        <name>CnP_PaaS__CnP_Payment_Last__c</name>
+    </fields>
+    <fields>
+        <label><!-- C&amp;P Maximum Payment --></label>
+        <name>CnP_PaaS__CnP_Payment_Maximum__c</name>
+    </fields>
+    <fields>
+        <label><!-- C&amp;P Minimum Payment --></label>
+        <name>CnP_PaaS__CnP_Payment_Minimum__c</name>
+    </fields>
+    <fields>
+        <label><!-- C&amp;P Total Personal Value --></label>
+        <name>CnP_PaaS__CnP_Total_Intrinsic__c</name>
+    </fields>
+    <fields>
+        <label><!-- C&amp;P Total Network Value --></label>
+        <name>CnP_PaaS__CnP_Total_extrinsic__c</name>
+    </fields>
+    <fields>
+        <label><!-- C&amp;P Connect Global Profile --></label>
+        <name>CnP_PaaS__Connect_Link__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check the box if there are no concerns about the participant&apos;s cognition or processing. --></help>
+        <label><!-- No concerns --></label>
+        <name>Cognition_No_Concerns__c</name>
+    </fields>
+    <fields>
+        <help><!-- The contact&apos;s disability is congenital. --></help>
+        <label><!-- Disability is Congenital --></label>
+        <name>Congenital__c</name>
+    </fields>
+    <fields>
+        <label><!-- Demographics --></label>
+        <name>Demographics__c</name>
+        <picklistValues>
+            <masterLabel>African American</masterLabel>
+            <translation><!-- African American --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asian Pacific</masterLabel>
+            <translation><!-- Asian Pacific --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Caucasian</masterLabel>
+            <translation><!-- Caucasian --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hispanic</masterLabel>
+            <translation><!-- Hispanic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Latino-not of Hispanic descent</masterLabel>
+            <translation><!-- Latino-not of Hispanic descent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Native American</masterLabel>
+            <translation><!-- Native American --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- For example, family, friends, caregiver (ffc) --></help>
+        <label><!-- Describe Relationship --></label>
+        <name>Describe_Relationship__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dietary Restrictions --></label>
+        <name>Dietary_Restrictions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Disability --></label>
+        <name>Disability__c</name>
+        <picklistValues>
+            <masterLabel>Amputation</masterLabel>
+            <translation><!-- Amputation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Arthritis</masterLabel>
+            <translation><!-- Arthritis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asthma</masterLabel>
+            <translation><!-- Asthma --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Autism</masterLabel>
+            <translation><!-- Autism --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Behavioral</masterLabel>
+            <translation><!-- Behavioral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cerebral Palsy</masterLabel>
+            <translation><!-- Cerebral Palsy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cognitive</masterLabel>
+            <translation><!-- Cognitive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cystic Fibrosis</masterLabel>
+            <translation><!-- Cystic Fibrosis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Diabetes</masterLabel>
+            <translation><!-- Diabetes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Down Syndrome</masterLabel>
+            <translation><!-- Down Syndrome --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Epilepsy/Seizure Disorder</masterLabel>
+            <translation><!-- Epilepsy/Seizure Disorder --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hearing Impairment</masterLabel>
+            <translation><!-- Hearing Impairment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mental Illness</masterLabel>
+            <translation><!-- Mental Illness --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Multiple Sclerosis</masterLabel>
+            <translation><!-- Multiple Sclerosis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Muscular Dystrophy</masterLabel>
+            <translation><!-- Muscular Dystrophy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PTSD</masterLabel>
+            <translation><!-- PTSD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spina Bifida</masterLabel>
+            <translation><!-- Spina Bifida --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spinal Cord Injury</masterLabel>
+            <translation><!-- Spinal Cord Injury --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stroke</masterLabel>
+            <translation><!-- Stroke --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Traumatic Brain Injury</masterLabel>
+            <translation><!-- Traumatic Brain Injury --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vision Impairment</masterLabel>
+            <translation><!-- Vision Impairment --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Discharge Date --></label>
+        <name>Discharge_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Donor --></label>
+        <name>Donor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Paticipant drives --></label>
+        <name>Driver__c</name>
+    </fields>
+    <fields>
+        <help><!-- Pick one or more from the list. --></help>
+        <label><!-- Educational --></label>
+        <name>Educational__c</name>
+        <picklistValues>
+            <masterLabel>Communicates feelings</masterLabel>
+            <translation><!-- Communicates feelings --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Knows left/right</masterLabel>
+            <translation><!-- Knows left/right --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Knows letters</masterLabel>
+            <translation><!-- Knows letters --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Knows numbers</masterLabel>
+            <translation><!-- Knows numbers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Makes decisions effectively</masterLabel>
+            <translation><!-- Makes decisions effectively --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Emergency Contact --></label>
+        <name>Emergency_Contact_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Emergency Email --></label>
+        <name>Emergency_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Emergency Phone --></label>
+        <name>Emergency_Phone__c</name>
+    </fields>
+    <fields>
+        <help><!-- Family dos/don&apos;ts. --></help>
+        <label><!-- Family dos donts --></label>
+        <name>Family_dos_donts__c</name>
+    </fields>
+    <fields>
+        <help><!-- Participant&apos;s favorite activities or topics. --></help>
+        <label><!-- Favorite Activities or Topics --></label>
+        <name>Favorite_Activities__c</name>
+    </fields>
+    <fields>
+        <help><!-- Participant&apos;s fears or dislikes --></help>
+        <label><!-- Fears or Dislikes --></label>
+        <name>Fears_or_Dislikes__c</name>
+    </fields>
+    <fields>
+        <label><!-- FCC Expiration Date --></label>
+        <name>Fingerprint_Clearance_Expiration_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fingerprint Clearance --></label>
+        <name>Fingerprint_Clearance__c</name>
+    </fields>
+    <fields>
+        <label><!-- FirstAdventureDate --></label>
+        <name>FirstAdventureDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- 1st Aid Expiration Date --></label>
+        <name>First_Aid_Certification_Expiration_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- First Aid Certification --></label>
+        <name>First_Aid_Certification__c</name>
+    </fields>
+    <fields>
+        <help><!-- What kind of directions the participant can follow. --></help>
+        <label><!-- Follows Directions --></label>
+        <name>Follows_Directions__c</name>
+        <picklistValues>
+            <masterLabel>1-step</masterLabel>
+            <translation><!-- 1-step --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2-steps</masterLabel>
+            <translation><!-- 2-steps --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3-steps</masterLabel>
+            <translation><!-- 3-steps --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>complex</masterLabel>
+            <translation><!-- complex --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Level of frustration tolerance that the participant has. --></help>
+        <label><!-- Frustration Tolerance --></label>
+        <name>Frustration_Tolerance__c</name>
+        <picklistValues>
+            <masterLabel>Average</masterLabel>
+            <translation><!-- Average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fair</masterLabel>
+            <translation><!-- Fair --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Poor</masterLabel>
+            <translation><!-- Poor --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>最初のボランティア時間の開始日</help>
+        <label><!-- First Volunteer Date --></label>
+        <name>GW_Volunteers__First_Volunteer_Date__c</name>
+    </fields>
+    <fields>
+        <help>最新のボランティア時間の開始日</help>
+        <label><!-- Last Volunteer Date --></label>
+        <name>GW_Volunteers__Last_Volunteer_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Volunteer Unique Count --></label>
+        <name>GW_Volunteers__Unique_Volunteer_Count__c</name>
+    </fields>
+    <fields>
+        <help>この個人が次回のシフトに関する自動リマインダーメールの送信を希望しない場合にオンにします。「ボランティア時間のリマインダーメール」ワークフロールールで使用します。</help>
+        <label><!-- Volunteer Auto-Reminder Email Opt Out --></label>
+        <name>GW_Volunteers__Volunteer_Auto_Reminder_Email_Opt_Out__c</name>
+    </fields>
+    <fields>
+        <label><!-- Volunteer Availability --></label>
+        <name>GW_Volunteers__Volunteer_Availability__c</name>
+        <picklistValues>
+            <masterLabel>Evenings</masterLabel>
+            <translation><!-- Evenings --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mornings</masterLabel>
+            <translation><!-- Mornings --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weekdays</masterLabel>
+            <translation>平日</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weekends</masterLabel>
+            <translation>週末</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weekly</masterLabel>
+            <translation>毎週</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>完了した時間の総数。その他の状況値の時間は含まれません。</help>
+        <label><!-- Volunteer Hours --></label>
+        <name>GW_Volunteers__Volunteer_Hours__c</name>
+    </fields>
+    <fields>
+        <help>ボランティアが Web からサインアップした最新の日付。通知およびお礼メールのワークフローをトリガするために使用します。</help>
+        <label><!-- Volunteer Last Web Signup Date --></label>
+        <name>GW_Volunteers__Volunteer_Last_Web_Signup_Date__c</name>
+    </fields>
+    <fields>
+        <help>ボランティアマネージャまたは団体スタッフが記録する、ボランティアに関するメモ。</help>
+        <label><!-- Volunteer Manager Notes --></label>
+        <name>GW_Volunteers__Volunteer_Manager_Notes__c</name>
+    </fields>
+    <fields>
+        <help>ボランティアによるメモ。Web サインアップフォームでは、この項目にボランティアのコメントが追加されます。</help>
+        <label><!-- Volunteer Notes --></label>
+        <name>GW_Volunteers__Volunteer_Notes__c</name>
+    </fields>
+    <fields>
+        <help>個人が代表してボランティアを行う団体、会社、またはグループ。</help>
+        <label><!-- Volunteer Organization --></label>
+        <name>GW_Volunteers__Volunteer_Organization__c</name>
+    </fields>
+    <fields>
+        <help>ボランティアの仕事を見つけるために使用される、この個人のスキルを選択します。</help>
+        <label><!-- Volunteer Skills --></label>
+        <name>GW_Volunteers__Volunteer_Skills__c</name>
+        <picklistValues>
+            <masterLabel>ASL</masterLabel>
+            <translation><!-- ASL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Camping</masterLabel>
+            <translation><!-- Camping --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Computer usage/Office work</masterLabel>
+            <translation><!-- Computer usage/Office work --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cycling</masterLabel>
+            <translation><!-- Cycling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Event Planning</masterLabel>
+            <translation>イベント企画</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fundraising</masterLabel>
+            <translation>活動資金集め</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hiking</masterLabel>
+            <translation><!-- Hiking --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kayaking</masterLabel>
+            <translation><!-- Kayaking --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leadership</masterLabel>
+            <translation><!-- Leadership --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing/Social Media</masterLabel>
+            <translation><!-- Marketing/Social Media --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spanish</masterLabel>
+            <translation><!-- Spanish --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Volunteer Status --></label>
+        <name>GW_Volunteers__Volunteer_Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation>有効</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation>無効</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Sign Up</masterLabel>
+            <translation>新規サインアップ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prospective</masterLabel>
+            <translation>見込み</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Gender of the Participant or Volunteer --></help>
+        <label><!-- Gender --></label>
+        <name>Gender__c</name>
+        <picklistValues>
+            <masterLabel>F</masterLabel>
+            <translation><!-- F --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M</masterLabel>
+            <translation><!-- M --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Other information that DA should know about participant&apos;s general activity. --></help>
+        <label><!-- Other Information --></label>
+        <name>General_Activity_Other__c</name>
+    </fields>
+    <fields>
+        <help><!-- Goal/reason of the participant to join DA. --></help>
+        <label><!-- Goals --></label>
+        <name>Goals__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hand-eye Coordination --></label>
+        <name>Hand_Eye_Coordination__c</name>
+    </fields>
+    <fields>
+        <help><!-- Quality of hand grip of the participant. --></help>
+        <label><!-- Describe Hand-grip --></label>
+        <name>Hand_Grip__c</name>
+        <picklistValues>
+            <masterLabel>Average</masterLabel>
+            <translation><!-- Average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fair</masterLabel>
+            <translation><!-- Fair --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No concerns</masterLabel>
+            <translation><!-- No concerns --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Poor</masterLabel>
+            <translation><!-- Poor --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Enter height in feet&apos; &amp; inches&quot;. Example 5&apos; 7&quot; --></help>
+        <label><!-- Height (Ft&apos; Inches&quot;) --></label>
+        <name>Height__c</name>
+    </fields>
+    <fields>
+        <label><!-- Household Size --></label>
+        <name>Household_Size__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6</masterLabel>
+            <translation><!-- 6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7</masterLabel>
+            <translation><!-- 7 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8</masterLabel>
+            <translation><!-- 8 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- How Often --></label>
+        <name>How_Often__c</name>
+    </fields>
+    <fields>
+        <label><!-- Language --></label>
+        <name>Language__c</name>
+        <picklistValues>
+            <masterLabel>Combines 2 or more words</masterLabel>
+            <translation><!-- Combines 2 or more words --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Makes sounds</masterLabel>
+            <translation><!-- Makes sounds --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Says words</masterLabel>
+            <translation><!-- Says words --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Signs or gestures</masterLabel>
+            <translation><!-- Signs or gestures --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Speaks in full sentences</masterLabel>
+            <translation><!-- Speaks in full sentences --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Uses pictures, symbols</masterLabel>
+            <translation><!-- Uses pictures, symbols --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- When was the information for this participant last reviewed or updated? --></help>
+        <label><!-- Last Reviewed --></label>
+        <name>Last_Reviewed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Learning Style --></label>
+        <name>Learning_Style__c</name>
+        <picklistValues>
+            <masterLabel>Auditory</masterLabel>
+            <translation><!-- Auditory --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kinesthetic</masterLabel>
+            <translation><!-- Kinesthetic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Visual</masterLabel>
+            <translation><!-- Visual --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- MC Subscriber --></label>
+        <name>MC4SF__MC_Subscriber__c</name>
+        <relationshipLabel><!-- Contacts --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- If Media Release is checked means the contact gave his signed consent for DA to use their picture/video etc in the Media. --></help>
+        <label><!-- Media Release --></label>
+        <name>Media_Release__c</name>
+    </fields>
+    <fields>
+        <label><!-- Medication Name --></label>
+        <name>Medication_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date the Contact started with Daring Adventures. --></help>
+        <label><!-- Member Since --></label>
+        <name>Member_Since__c</name>
+    </fields>
+    <fields>
+        <help><!-- Additional details about participant mobility and physical support. --></help>
+        <label><!-- Additional Details --></label>
+        <name>Mobility_Additional_Details__c</name>
+    </fields>
+    <fields>
+        <help><!-- The primary mode of communication of the participant (when non-verbal). --></help>
+        <label><!-- Primary Mode of Communication --></label>
+        <name>Mode_of_Communication__c</name>
+    </fields>
+    <fields>
+        <label><!-- Muscle spasms or tone --></label>
+        <name>Muscle_Spasms__c</name>
+    </fields>
+    <fields>
+        <help><!-- Based on household size, annual income is NOT below the amounts listed. --></help>
+        <label><!-- NOT Below Amount Listed --></label>
+        <name>NOT_Below_Amount_Listed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nickname --></label>
+        <name>Nickname__c</name>
+    </fields>
+    <fields>
+        <help><!-- List any additional areas of interest, skill, and/or certifications. --></help>
+        <label><!-- Other Area of Interest --></label>
+        <name>Other_Area_of_Interest__c</name>
+    </fields>
+    <fields>
+        <help><!-- Other types of mobility or assistive aides. --></help>
+        <label><!-- Other --></label>
+        <name>Other_Assistive_Aides__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other --></label>
+        <name>Other_Disability__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mobile Phone (g) --></label>
+        <name>Parent_Guardian_Cell_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent/Guardian Email --></label>
+        <name>Parent_Guardian_Email__c</name>
+    </fields>
+    <fields>
+        <help><!-- See &quot;Preferred Phone&quot; field. --></help>
+        <label><!-- Home Phone (g) --></label>
+        <name>Parent_Guardian_Home_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Guardian Name --></label>
+        <name>Parent_Guardian_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- See &quot;Preferred Phone&quot; field. --></help>
+        <label><!-- Work Phone (g) --></label>
+        <name>Parent_Guardian_Work_Phone__c</name>
+    </fields>
+    <fields>
+        <help><!-- If a volunteer has a relationship with a participant (i.e. Sister, Caregiver), list participant&apos;s name. --></help>
+        <label><!-- Participant Name --></label>
+        <name>Participant_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Participant --></label>
+        <name>Participant__c</name>
+    </fields>
+    <fields>
+        <help><!-- Quality of the physical endurance of the contact. --></help>
+        <label><!-- Physical Endurance --></label>
+        <name>Physical_Endurance__c</name>
+    </fields>
+    <fields>
+        <help><!-- I would prefer to work with the Post 9/11 Military program. --></help>
+        <label><!-- Post 9/11 Military program --></label>
+        <name>Post_9_11_Military_program__c</name>
+    </fields>
+    <fields>
+        <label><!-- Problem Solving --></label>
+        <name>Problem_Solving__c</name>
+        <picklistValues>
+            <masterLabel>Average</masterLabel>
+            <translation><!-- Average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fair</masterLabel>
+            <translation><!-- Fair --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Poor</masterLabel>
+            <translation><!-- Poor --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Daring Adventures program the volunteer is interested in. --></help>
+        <label><!-- Program (not in use) --></label>
+        <name>Program__c</name>
+        <picklistValues>
+            <masterLabel>Any available program</masterLabel>
+            <translation><!-- Any available program --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Post 9/11 Military program</masterLabel>
+            <translation><!-- Post 9/11 Military program --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Propulsion/navigation --></label>
+        <name>Propulsion_navigation__c</name>
+    </fields>
+    <fields>
+        <help><!-- Can choose more than one. --></help>
+        <label><!-- Public Transportation --></label>
+        <name>Public_Transportation__c</name>
+        <picklistValues>
+            <masterLabel>Bus system</masterLabel>
+            <translation><!-- Bus system --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dial-a-Ride</masterLabel>
+            <translation><!-- Dial-a-Ride --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Light Rail</masterLabel>
+            <translation><!-- Light Rail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- If checked means that the Volunteer has current certifications and has attended Orientation. If it is not checked verify that the certifications are current and the Orientation field has a date. --></help>
+        <label><!-- Qualified Program Volunteer --></label>
+        <name>Qualified_Volunteer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Redirection to Task --></label>
+        <name>Redirection__c</name>
+    </fields>
+    <fields>
+        <label><!-- Emergency Relationship --></label>
+        <name>Relationship__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check if volunteer knows and/or works with a participant. --></help>
+        <label><!-- Family or Friend --></label>
+        <name>Relationship_w_Participant__c</name>
+    </fields>
+    <fields>
+        <help><!-- Details of sensory concerns and/or other sensitivities not included in the list. --></help>
+        <label><!-- Details --></label>
+        <name>Sensory_Details__c</name>
+    </fields>
+    <fields>
+        <help><!-- Pick type of sensitivity from the list. If not included list it on the Additional Info field in this section. --></help>
+        <label><!-- Sensory Sensitivities --></label>
+        <name>Sensory_Sensitivities__c</name>
+        <picklistValues>
+            <masterLabel>Auditory (hearing)</masterLabel>
+            <translation><!-- Auditory (hearing) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No concerns</masterLabel>
+            <translation><!-- No concerns --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tactile (touch)</masterLabel>
+            <translation><!-- Tactile (touch) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Visual</masterLabel>
+            <translation><!-- Visual --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- pressure sores/skin breakdown --></label>
+        <name>Skin_problems__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mantaining Social Behavior --></label>
+        <name>Social_Behavior__c</name>
+    </fields>
+    <fields>
+        <label><!-- Social --></label>
+        <name>Social__c</name>
+        <picklistValues>
+            <masterLabel>Appropriate conversation</masterLabel>
+            <translation><!-- Appropriate conversation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interacts with peers</masterLabel>
+            <translation><!-- Interacts with peers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Knows safety awareness</masterLabel>
+            <translation><!-- Knows safety awareness --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Makes eye contact</masterLabel>
+            <translation><!-- Makes eye contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recognizes name</masterLabel>
+            <translation><!-- Recognizes name --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Takes turns</masterLabel>
+            <translation><!-- Takes turns --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Understands personal space</masterLabel>
+            <translation><!-- Understands personal space --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Concerns with Temperature --></label>
+        <name>Temperature_concerns__c</name>
+    </fields>
+    <fields>
+        <help><!-- Choose from the picklist according to the participant&apos;s intake form. --></help>
+        <label><!-- Toileting/Hygiene --></label>
+        <name>Toileting__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Activity Days --></label>
+        <name>Total_Activity_Days__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check if participant needs assistance with transfers. Leave blank if participant does not need assistance. --></help>
+        <label><!-- Transfer Assistance --></label>
+        <name>Transfer_Assistance__c</name>
+    </fields>
+    <fields>
+        <help><!-- Level of independence with transfers. --></help>
+        <label><!-- Transfers --></label>
+        <name>Transfers__c</name>
+    </fields>
+    <fields>
+        <help><!-- Size of t-shirt that the participant/volunteer uses. --></help>
+        <label><!-- Tshirt Size --></label>
+        <name>Tshirt_Size__c</name>
+        <picklistValues>
+            <masterLabel>L</masterLabel>
+            <translation><!-- L --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M</masterLabel>
+            <translation><!-- M --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S</masterLabel>
+            <translation><!-- S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>XL</masterLabel>
+            <translation><!-- XL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>XXL</masterLabel>
+            <translation><!-- XXL --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Type of physical support --></help>
+        <label><!-- Type --></label>
+        <name>Type_of_Assistive_Aides__c</name>
+        <picklistValues>
+            <masterLabel>Canes/crutches</masterLabel>
+            <translation><!-- Canes/crutches --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Communication Device</masterLabel>
+            <translation><!-- Communication Device --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Modified Independent</masterLabel>
+            <translation><!-- Modified Independent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No concerns</masterLabel>
+            <translation><!-- No concerns --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prosthesis</masterLabel>
+            <translation><!-- Prosthesis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scooter</masterLabel>
+            <translation><!-- Scooter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Animal</masterLabel>
+            <translation><!-- Service Animal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Walker</masterLabel>
+            <translation><!-- Walker --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wheelchair: Manual</masterLabel>
+            <translation><!-- Wheelchair: Manual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wheelchair: Power</masterLabel>
+            <translation><!-- Wheelchair: Power --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Participant/Volunteer smokes cigarretes or uses tobacco products. --></help>
+        <label><!-- Uses Tobacco --></label>
+        <name>Uses_Tobacco__c</name>
+    </fields>
+    <fields>
+        <help><!-- Participant/Volunteer uses e-cigarettes or similar products. --></help>
+        <label><!-- Uses e-cigarettes --></label>
+        <name>Uses_e_cigarettes__c</name>
+    </fields>
+    <fields>
+        <help><!-- When checked means that the participant has verbal communication. --></help>
+        <label><!-- Verbal Communication --></label>
+        <name>Verbal_Communication__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date the volunteer attended orientation. --></help>
+        <label><!-- Orientation Date --></label>
+        <name>Volunteer_Orientation__c</name>
+    </fields>
+    <fields>
+        <help><!-- Response to: What sort of commitment are you looking for? --></help>
+        <label><!-- Volunteer Time Commitment --></label>
+        <name>Volunteer_Time_Commitment__c</name>
+        <picklistValues>
+            <masterLabel>As needed (we will call when needed)</masterLabel>
+            <translation><!-- As needed (we will call when needed) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consistent Volunteer (continued commitment to one program)</masterLabel>
+            <translation><!-- Consistent Volunteer (continued commitment to one program) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Frequent Volunteer</masterLabel>
+            <translation><!-- Frequent Volunteer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No preference</masterLabel>
+            <translation><!-- No preference --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not sure yet...</masterLabel>
+            <translation><!-- Not sure yet... --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Occasional Volunteer</masterLabel>
+            <translation><!-- Occasional Volunteer --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Volunteer --></label>
+        <name>Volunteer__c</name>
+    </fields>
+    <fields>
+        <help><!-- Weight in pounds of Participant or Volunteer --></help>
+        <label><!-- Weight (lbs) --></label>
+        <name>Weight__c</name>
+    </fields>
+    <fields>
+        <help><!-- I would like to work in any available program. --></help>
+        <label><!-- Work in any Available program --></label>
+        <name>Work_in_any_Available_program__c</name>
+    </fields>
+    <fields>
+        <help>[その他のメール] は、個人メール、メール連絡先、勤務先メールに続く 4 番目の任意のメールです。</help>
+        <label><!-- Alternate Email --></label>
+        <name>npe01__AlternateEmail__c</name>
+    </fields>
+    <fields>
+        <help>[メール連絡先] 項目を参照してください。</help>
+        <label><!-- Personal Email --></label>
+        <name>npe01__HomeEmail__c</name>
+    </fields>
+    <fields>
+        <help>数式: [連絡先] 項目を使用して、[住所(郵送先)] または [住所(その他)] から自宅住所を決定します。</help>
+        <label><!-- Home Address --></label>
+        <name>npe01__Home_Address__c</name>
+    </fields>
+    <fields>
+        <help><!-- WARNING - This field may not accurately reflect the donation history. Please use the Last Gift Date field instead. --></help>
+        <label><!-- DEPRECATED - Last Transaction Date --></label>
+        <name>npe01__Last_Donation_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- WARNING- This field may not accurately reflect donation histories. Please use the Total Amount field on the Contact record instead. --></help>
+        <label><!-- Lifetime Transaction Total --></label>
+        <name>npe01__Lifetime_Giving_History_Amount__c</name>
+    </fields>
+    <fields>
+        <help>数式: 設定の順序、[SYSTEM_AccountType] 項目、[団体種別] 項目、および「団体」。</help>
+        <label><!-- Organization Type --></label>
+        <name>npe01__Organization_Type__c</name>
+    </fields>
+    <fields>
+        <help>数式: [連絡先] が [その他] の場合は [住所(郵送先)]。数式: [連絡先(その他)] が [その他] の場合は [住所(その他)]。</help>
+        <label><!-- Other Address --></label>
+        <name>npe01__Other_Address__c</name>
+    </fields>
+    <fields>
+        <help>この個人に関連するほとんどのコミュニケーションで使用する電話番号は?</help>
+        <label><!-- Preferred Phone --></label>
+        <name>npe01__PreferredPhone__c</name>
+        <picklistValues>
+            <masterLabel>Home</masterLabel>
+            <translation>自宅</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mobile</masterLabel>
+            <translation>携帯</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>その他</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Work</masterLabel>
+            <translation>勤務先</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Preferred Email --></label>
+        <name>npe01__Preferred_Email__c</name>
+        <picklistValues>
+            <masterLabel>Alternate</masterLabel>
+            <translation>その他</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Personal</masterLabel>
+            <translation>個人</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Work</masterLabel>
+            <translation>勤務先</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>郵送先住所の住所種別。</help>
+        <label><!-- Primary Address Type --></label>
+        <name>npe01__Primary_Address_Type__c</name>
+        <picklistValues>
+            <masterLabel>Home</masterLabel>
+            <translation>自宅</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>その他</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Work</masterLabel>
+            <translation>勤務先</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>1 対 1 またはバケット団体の処理から個人を除外します。</help>
+        <label><!-- Private --></label>
+        <name>npe01__Private__c</name>
+    </fields>
+    <fields>
+        <help>その他住所の住所種別は?</help>
+        <label><!-- Secondary Address Type --></label>
+        <name>npe01__Secondary_Address_Type__c</name>
+        <picklistValues>
+            <masterLabel>Home</masterLabel>
+            <translation>自宅</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>その他</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Work</masterLabel>
+            <translation>勤務先</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>個人 (バケット) モデルと 1 対 1 モデルのどちらで団体リレーションが動作するかを示します</help>
+        <label><!-- DEPRECATED - _SYSTEM: ACCOUNT PROCESSOR --></label>
+        <name>npe01__SystemAccountProcessor__c</name>
+        <picklistValues>
+            <masterLabel>Individual</masterLabel>
+            <translation>個人</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>One-to-One</masterLabel>
+            <translation><!-- One-to-One --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>このフィールドは既に使用不可能なため参照しないでください。Type_of_Account_cによって置き換えられました。</help>
+        <label><!-- _SYSTEM: IsIndividual - DEPRECATED --></label>
+        <name>npe01__SystemIsIndividual__c</name>
+    </fields>
+    <fields>
+        <help>この個人とつながっている「取引先」の種類を示します</help>
+        <label><!-- Type of Account --></label>
+        <name>npe01__Type_of_Account__c</name>
+    </fields>
+    <fields>
+        <help>[メール連絡先] 項目を参照してください。</help>
+        <label><!-- Work Email --></label>
+        <name>npe01__WorkEmail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Work Phone --></label>
+        <name>npe01__WorkPhone__c</name>
+    </fields>
+    <fields>
+        <help>数式: [第 1 住所] の [種別] が [勤務先] の場合は [住所(郵送先)]。[第 2 住所] の [種別] が [勤務先] の場合は [住所(その他)]。</help>
+        <label><!-- Work Address --></label>
+        <name>npe01__Work_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Average Gift --></label>
+        <name>npo02__AverageAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Best Gift Year Total --></label>
+        <name>npo02__Best_Gift_Year_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Best Gift Year --></label>
+        <name>npo02__Best_Gift_Year__c</name>
+    </fields>
+    <fields>
+        <label><!-- First Gift Date --></label>
+        <name>npo02__FirstCloseDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Household Mailing Address --></label>
+        <name>npo02__Formula_HouseholdMailingAddress__c</name>
+    </fields>
+    <fields>
+        <label><!-- Household Phone --></label>
+        <name>npo02__Formula_HouseholdPhone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Household Naming Order --></label>
+        <name>npo02__Household_Naming_Order__c</name>
+    </fields>
+    <fields>
+        <label><!-- Household --></label>
+        <name>npo02__Household__c</name>
+        <relationshipLabel><!-- Household Members --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Largest Gift --></label>
+        <name>npo02__LargestAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Household Gift Date --></label>
+        <name>npo02__LastCloseDateHH__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Gift Date --></label>
+        <name>npo02__LastCloseDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Membership Amount --></label>
+        <name>npo02__LastMembershipAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Membership Date --></label>
+        <name>npo02__LastMembershipDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Membership Level --></label>
+        <name>npo02__LastMembershipLevel__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Membership Origin --></label>
+        <name>npo02__LastMembershipOrigin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Gift Amount --></label>
+        <name>npo02__LastOppAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Membership End Date --></label>
+        <name>npo02__MembershipEndDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Membership Join Date --></label>
+        <name>npo02__MembershipJoinDate__c</name>
+    </fields>
+    <fields>
+        <help>この個人が含まれない世帯名を決定します。</help>
+        <label><!-- Naming Exclusions --></label>
+        <name>npo02__Naming_Exclusions__c</name>
+        <picklistValues>
+            <masterLabel>Household__c.Formal_Greeting__c</masterLabel>
+            <translation><!-- Household__c.Formal_Greeting__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Household__c.Informal_Greeting__c</masterLabel>
+            <translation><!-- Household__c.Informal_Greeting__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Household__c.Name</masterLabel>
+            <translation><!-- Household__c.Name --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Total Number of Gifts --></label>
+        <name>npo02__NumberOfClosedOpps__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Memberships --></label>
+        <name>npo02__NumberOfMembershipOpps__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Gifts Two Years Ago --></label>
+        <name>npo02__OppAmount2YearsAgo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Gifts Last N Days --></label>
+        <name>npo02__OppAmountLastNDays__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Household Gifts Last Year --></label>
+        <name>npo02__OppAmountLastYearHH__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Gifts Last Year --></label>
+        <name>npo02__OppAmountLastYear__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Household Gifts This Year --></label>
+        <name>npo02__OppAmountThisYearHH__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Gifts This Year --></label>
+        <name>npo02__OppAmountThisYear__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Gifts Two Years Ago --></label>
+        <name>npo02__OppsClosed2YearsAgo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Gifts Last N Days --></label>
+        <name>npo02__OppsClosedLastNDays__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Gifts Last Year --></label>
+        <name>npo02__OppsClosedLastYear__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Gifts This Year --></label>
+        <name>npo02__OppsClosedThisYear__c</name>
+    </fields>
+    <fields>
+        <label><!-- Smallest Gift --></label>
+        <name>npo02__SmallestAmount__c</name>
+    </fields>
+    <fields>
+        <help>昨年のソフトクレジットの総額。</help>
+        <label><!-- Soft Credit Last Year --></label>
+        <name>npo02__Soft_Credit_Last_Year__c</name>
+    </fields>
+    <fields>
+        <help>今年のソフトクレジットの総額。</help>
+        <label><!-- Soft Credit This Year --></label>
+        <name>npo02__Soft_Credit_This_Year__c</name>
+    </fields>
+    <fields>
+        <help>この個人の全期間のソフトクレジットの総額。[世帯設定] タブで定義します。</help>
+        <label><!-- Soft Credit Total --></label>
+        <name>npo02__Soft_Credit_Total__c</name>
+    </fields>
+    <fields>
+        <help>2 年前のソフトクレジットの総額。</help>
+        <label><!-- Soft Credit Two Years Ago --></label>
+        <name>npo02__Soft_Credit_Two_Years_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- _SYSTEM: HOUSEHOLD PROCESSOR-DEPRECATED --></label>
+        <name>npo02__SystemHouseholdProcessor__c</name>
+        <picklistValues>
+            <masterLabel>All Individual Contacts</masterLabel>
+            <translation><!-- All Individual Contacts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>All New or Edited Contacts</masterLabel>
+            <translation><!-- All New or Edited Contacts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Contacts</masterLabel>
+            <translation><!-- No Contacts --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Total Membership Amount --></label>
+        <name>npo02__TotalMembershipOppAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Gifts --></label>
+        <name>npo02__TotalOppAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Household Gifts --></label>
+        <name>npo02__Total_Household_Gifts__c</name>
+    </fields>
+    <fields>
+        <help>この住所を検証する必要がある場合は、住所ページの上部にある [住所を検証] ボタンをクリックします。詳細は、Power of Us Hub のヘルプドキュメントを参照してください。</help>
+        <label><!-- Address Verification Status --></label>
+        <name>npsp__Address_Verification_Status__c</name>
+    </fields>
+    <fields>
+        <help>この個人が作成されたバッチを参照します。</help>
+        <label><!-- Batch --></label>
+        <name>npsp__Batch__c</name>
+        <relationshipLabel><!-- Contacts --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>個人の郵送先項目が入力された現在の住所。</help>
+        <label><!-- Current Address --></label>
+        <name>npsp__Current_Address__c</name>
+        <relationshipLabel><!-- Contacts (Current Address) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>このオプションを選択すると、個人が死亡とマークされ、世帯命名、メールの送信、および電話の発信から除外されます。</help>
+        <label><!-- Deceased --></label>
+        <name>npsp__Deceased__c</name>
+    </fields>
+    <fields>
+        <help>このオプションを選択すると、個人がメールの送信および電話の発信から除外されます。</help>
+        <label><!-- Do Not Contact --></label>
+        <name>npsp__Do_Not_Contact__c</name>
+    </fields>
+    <fields>
+        <help>このボックスをオンにすると、この個人が世帯の公式の挨拶から除外されます。</help>
+        <label><!-- Exclude from Household Formal Greeting --></label>
+        <name>npsp__Exclude_from_Household_Formal_Greeting__c</name>
+    </fields>
+    <fields>
+        <help>このボックスをオンにすると、この個人が世帯の非公式の挨拶から除外されます。</help>
+        <label><!-- Exclude from Household Informal Greeting --></label>
+        <name>npsp__Exclude_from_Household_Informal_Greeting__c</name>
+    </fields>
+    <fields>
+        <help>このボックスをオンにすると、この個人が世帯名から除外されます。</help>
+        <label><!-- Exclude from Household Name --></label>
+        <name>npsp__Exclude_from_Household_Name__c</name>
+    </fields>
+    <fields>
+        <help>最初のソフトクレジットの金額。</help>
+        <label><!-- First Soft Credit Amount --></label>
+        <name>npsp__First_Soft_Credit_Amount__c</name>
+    </fields>
+    <fields>
+        <help>最初のソフトクレジットの日付。</help>
+        <label><!-- First Soft Credit Date --></label>
+        <name>npsp__First_Soft_Credit_Date__c</name>
+    </fields>
+    <fields>
+        <help>世帯団体または世帯オブジェクトの現在の世帯の ID を保持します。</help>
+        <label><!-- HHId --></label>
+        <name>npsp__HHId__c</name>
+    </fields>
+    <fields>
+        <help>最大ソフトクレジットの金額。</help>
+        <label><!-- Largest Soft Credit Amount --></label>
+        <name>npsp__Largest_Soft_Credit_Amount__c</name>
+    </fields>
+    <fields>
+        <help>最大ソフトクレジットの日付。</help>
+        <label><!-- Largest Soft Credit Date --></label>
+        <name>npsp__Largest_Soft_Credit_Date__c</name>
+    </fields>
+    <fields>
+        <help>最新のソフトクレジットの金額。</help>
+        <label><!-- Last Soft Credit Amount --></label>
+        <name>npsp__Last_Soft_Credit_Amount__c</name>
+    </fields>
+    <fields>
+        <help>最新のソフトクレジットの日付。</help>
+        <label><!-- Last Soft Credit Date --></label>
+        <name>npsp__Last_Soft_Credit_Date__c</name>
+    </fields>
+    <fields>
+        <help>[NPSP 設定] で定義された過去の日数の間に完了したソフトクレジットの数。</help>
+        <label><!-- Number of Soft Credits Last N Days --></label>
+        <name>npsp__Number_of_Soft_Credits_Last_N_Days__c</name>
+    </fields>
+    <fields>
+        <help>昨年のソフトクレジットの数。</help>
+        <label><!-- Number of Soft Credits Last Year --></label>
+        <name>npsp__Number_of_Soft_Credits_Last_Year__c</name>
+    </fields>
+    <fields>
+        <help>今年のソフトクレジットの数。</help>
+        <label><!-- Number of Soft Credits This Year --></label>
+        <name>npsp__Number_of_Soft_Credits_This_Year__c</name>
+    </fields>
+    <fields>
+        <help>2 年前のソフトクレジットの数。</help>
+        <label><!-- Number of Soft Credits Two Years Ago --></label>
+        <name>npsp__Number_of_Soft_Credits_Two_Years_Ago__c</name>
+    </fields>
+    <fields>
+        <help>ソフトクレジットの数。</help>
+        <label><!-- Number of Soft Credits --></label>
+        <name>npsp__Number_of_Soft_Credits__c</name>
+    </fields>
+    <fields>
+        <help>「主」とマークされた個人の関係する団体レコードの団体を追跡するために使用します。</help>
+        <label><!-- Primary Affiliation --></label>
+        <name>npsp__Primary_Affiliation__c</name>
+        <relationshipLabel><!-- Do Not Use.  Use Organization Affiliations. --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>ユーザがユーザの団体の主個人である場合にオンにします。[団体] で [主個人] を編集できます。</help>
+        <label><!-- Primary Contact --></label>
+        <name>npsp__Primary_Contact__c</name>
+    </fields>
+    <fields>
+        <help>[世帯設定] で定義された過去の日数の間に完了したソフトクレジットの総額。</help>
+        <label><!-- Soft Credit Last N Days --></label>
+        <name>npsp__Soft_Credit_Last_N_Days__c</name>
+    </fields>
+    <fields>
+        <help>オンの場合、個人の現在の住所の検索で世帯のデフォルトが上書きされます。</help>
+        <label><!-- Address Override --></label>
+        <name>npsp__is_Address_Override__c</name>
+    </fields>
+    <recordTypes>
+        <label><!-- C&amp;P Online --></label>
+        <name>C_P_Online</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- US phone numbers should be in this format: (999) 999-9999. --></errorMessage>
+        <name>Standard_Formatting_Emergency_Ph</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- US phone numbers should be in this format: (999) 999-9999. --></errorMessage>
+        <name>Standard_Formatting_HomePhone</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- US phone numbers should be in this format: (999) 999-9999. --></errorMessage>
+        <name>Standard_Formatting_Other_Phone</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- US phone numbers should be in this format: (999) 999-9999. --></errorMessage>
+        <name>Standard_Formatting_ParentGuard_Home_Ph</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- US phone numbers should be in this format: (999) 999-9999. --></errorMessage>
+        <name>Standard_Formatting_ParentGuard_Mobile</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- US phone numbers should be in this format: (999) 999-9999. --></errorMessage>
+        <name>Standard_Formatting_ParentGuard_Work_Ph</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- US phone numbers should be in this format: (999) 999-9999. --></errorMessage>
+        <name>Standard_Formatting_Phone</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- US phone numbers should be in this format: (999) 999-9999. --></errorMessage>
+        <name>standard_formatting_mobile_phone</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Invoice_Virtual_Terminal --></label>
+        <name>CnP_PaaS__Invoice_Virtual_Terminal</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SMS --></label>
+        <name>CnP_PaaS__SMS</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Virtual_Terminal --></label>
+        <name>CnP_PaaS__Virtual_Terminal</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- MailChimp_Subscriptions_detail --></label>
+        <name>MC4SF__MailChimp_Subscriptions_detail</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- MailChimp_Subscriptions_list --></label>
+        <name>MC4SF__MailChimp_Subscriptions_list</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Print_Info --></label>
+        <name>Print_Info</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SendGmail --></label>
+        <name>SendGmail</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooMaps --></label>
+        <name>YahooMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooWeather --></label>
+        <name>YahooWeather</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Relationships_Viewer --></label>
+        <name>npe4__Relationships_Viewer</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Copy_Address_to_Household --></label>
+        <name>npo02__Copy_Address_to_Household</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Household --></label>
+        <name>npo02__Household</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Merge_Contacts --></label>
+        <name>npsp__Merge_Contacts</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Recalculate_Rollups --></label>
+        <name>npsp__Recalculate_Rollups</name>
+    </webLinks>
+    <workflowTasks>
+        <description>ボランティアにサインアップした個人に自動お礼メールが送信されました。</description>
+        <name>GW_Volunteers__Volunteer_Signup_Thank_You_Sent_Contact</name>
+    </workflowTasks>
+</CustomObjectTranslation>

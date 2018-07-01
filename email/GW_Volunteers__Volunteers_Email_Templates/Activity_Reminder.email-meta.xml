@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email to remind the volunteers of the Activity they will be volunteering on.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Volunteers_emails</letterhead>
+    <name>Activity Reminder</name>
+    <style>freeForm</style>
+    <subject>Your upcoming volunteer opportunity with {!Organization.Name}</subject>
+    <textOnly>&lt;p&gt;Hi {!Contact.FirstName}, &lt;/p&gt;
+
+&lt;p&gt;We are looking forward to having you help us at our event. &lt;/p&gt;
+
+&lt;p&gt;{!GW_Volunteers__Volunteer_Job__c.Name}&lt;/p&gt;
+
+{!GW_Volunteers__Volunteer_Job__c.GW_Volunteers__Description__c}
+
+&lt;p&gt;Address of the event: &lt;/p&gt;
+
+&lt;p&gt;{!GW_Volunteers__Volunteer_Job__c.GW_Volunteers__Location_Street__c}&lt;br/&gt;
+{!GW_Volunteers__Volunteer_Job__c.GW_Volunteers__Location_City__c}, {!GW_Volunteers__Volunteer_Job__c.GW_Volunteers__Location__c}  &lt;br/&gt;{!GW_Volunteers__Volunteer_Job__c.GW_Volunteers__Location_Zip_Postal_Code__c}&lt;/p&gt;
+
+{!GW_Volunteers__Volunteer_Job__c.GW_Volunteers__Location_Information__c}
+
+&lt;p&gt;Thanks from all of us at {!Organization.Name}. We will see you soon!&lt;/p&gt;
+
+For any questions, comments or concerns you can contact Brenna or Martha.
+
+Brenna Bean, CTRS
+Program Coordinator
+brenna@daring-adventures.org
+602-290-0214 ext. 103</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

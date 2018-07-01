@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>AddCampaign</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ConvertLead</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CreateOpportunity</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Activity_Days__c</fullName>
+        <defaultValue>0</defaultValue>
+        <description>Duration of activity (days)</description>
+        <externalId>false</externalId>
+        <inlineHelpText>How many days does the activity last through?</inlineHelpText>
+        <label>Activity Days</label>
+        <precision>6</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Additional_Invitees__c</fullName>
+        <defaultValue>0</defaultValue>
+        <description>The number of people the campaign member is bringing (people coming along but not entered as contacts)</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the number of people coming with this contact. This only includes people who are not contacts in our database. This number helps for headcounts in campaign.</inlineHelpText>
+        <label>Additional Invitees</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Attended__c</fullName>
+        <description>It is true if the campaign member&apos;s status is Attended or Staff</description>
+        <externalId>false</externalId>
+        <formula>OR( ISPICKVAL(Status,&apos;Attended&apos;),ISPICKVAL(Status,&apos;Staff&apos;))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Attended</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CampaignDate__c</fullName>
+        <description>Campaign Start Date</description>
+        <externalId>false</externalId>
+        <formula>Campaign.StartDate</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>CampaignDate</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>CampaignId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CampaignName__c</fullName>
+        <externalId>false</externalId>
+        <formula>Campaign.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>CampaignName</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>City</fullName>
+    </fields>
+    <fields>
+        <fullName>CnP_PaaS__CnP_Campaign_Lift_URL_Autocomplete__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>C&amp;P Campaign Lift URL Autocomplete</label>
+        <length>16384</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>CnP_PaaS__CnP_Campaign_Lift_URL__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>C&amp;P Campaign Lift URL</label>
+        <required>false</required>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>CnP_PaaS__CnP_Increment__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>C&amp;P Increment</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CnP_PaaS__CnP_Lift_Expiration_date__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>C&amp;P Lift Expiration date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>CnP_PaaS__CnP_Lift_Last_Updated__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>C&amp;P Lift Last Updated</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>CnP_PaaS__CnP_Start_Value__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>C&amp;P Start Value</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CompanyOrAccount</fullName>
+    </fields>
+    <fields>
+        <fullName>ContactId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Country</fullName>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+    </fields>
+    <fields>
+        <fullName>DoNotCall</fullName>
+    </fields>
+    <fields>
+        <fullName>Email</fullName>
+    </fields>
+    <fields>
+        <fullName>Emergency_Contact__c</fullName>
+        <externalId>false</externalId>
+        <formula>Contact.Emergency_Contact_Name__c  &amp; &quot; &quot;  &amp; Contact.Emergency_Phone__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Emergency Contact</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Fax</fullName>
+    </fields>
+    <fields>
+        <fullName>FirstName</fullName>
+    </fields>
+    <fields>
+        <fullName>FirstRespondedDate</fullName>
+    </fields>
+    <fields>
+        <fullName>HasOptedOutOfEmail</fullName>
+    </fields>
+    <fields>
+        <fullName>HasOptedOutOfFax</fullName>
+    </fields>
+    <fields>
+        <fullName>HasResponded</fullName>
+    </fields>
+    <fields>
+        <fullName>LastName</fullName>
+    </fields>
+    <fields>
+        <fullName>LeadId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>LeadSource</fullName>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>MobilePhone</fullName>
+    </fields>
+    <fields>
+        <fullName>Party_of__c</fullName>
+        <description>Total attending, including the contact. This field only counts people that are Signed Up or have already Attended an Adventure.</description>
+        <externalId>false</externalId>
+        <formula>IF( 
+ OR ( 
+   OR( ISPICKVAL (Status, &quot;Attended&quot;), ISPICKVAL (Status, &quot;Signed Up&quot;)),
+       ISPICKVAL (Status, &quot;Staff&quot;)), 
+   Additional_Invitees__c + 1, 0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>This number is automatically calculated, based on the status of the Campaign Members.</inlineHelpText>
+        <label>Party of</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Phone</fullName>
+    </fields>
+    <fields>
+        <fullName>PostalCode</fullName>
+    </fields>
+    <fields>
+        <fullName>Salutation</fullName>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Staff__c</fullName>
+        <description>This field is true when the Campaign Member Status is Staff.</description>
+        <externalId>false</externalId>
+        <formula>ISPICKVAL(Status,&apos;Staff&apos;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Staff</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>State</fullName>
+    </fields>
+    <fields>
+        <fullName>Status</fullName>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Street</fullName>
+    </fields>
+    <fields>
+        <fullName>Title</fullName>
+    </fields>
+    <sharingModel>ControlledByCampaign</sharingModel>
+    <webLinks>
+        <fullName>Add_Campaign_Member</fullName>
+        <availability>online</availability>
+        <description>Calls the Visualforce page SelectCampaignMembers2</description>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>Add Participants</masterLabel>
+        <openType>noSidebar</openType>
+        <protected>false</protected>
+        <requireRowSelection>false</requireRowSelection>
+        <url>/SelectCampaignMembers2?Id={!CampaignMember.CampaignId}</url>
+    </webLinks>
+</CustomObject>

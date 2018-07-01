@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<CnPProcess>
+<HelpTextDetails>
+	<HelpTab TabName="Settings" Label="Settings">
+		<TabSection Name="CnP Account" display="true">
+		<HelpDescription/>
+		<HelpLink link="http://help.clickandpledge.com/customer/portal/articles/803669" ActiveLink="true">Online Help</HelpLink>
+		<HelpVideo video="http://www.viddler.com/player/504f56a7" ActiveVideo="false">CnP Account Video</HelpVideo>
+		</TabSection>
+		<TabSection Name="Contact and Account" display="true">
+		<HelpDescription/>
+		<HelpLink link="http://help.clickandpledge.com/customer/portal/articles/1164726" ActiveLink="true">Online Help</HelpLink>
+		<HelpVideo video="http://www.viddler.com/player/d21e6b61" ActiveVideo="false">Contact Account Video</HelpVideo>
+		</TabSection>
+		<TabSection Name="Opportunity" display="true">
+		<HelpDescription/>
+		<HelpLink link="http://help.clickandpledge.com/customer/portal/articles/1164724" ActiveLink="true">Online Help</HelpLink>
+		<HelpVideo video="http://www.viddler.com/player/32f5976e" ActiveVideo="false">Opportunity Video</HelpVideo>
+		</TabSection>
+		<TabSection Name="Virtualterminal" display="true">
+		<HelpDescription/>
+		<HelpLink link="http://help.clickandpledge.com/customer/portal/articles/1164715" ActiveLink="true">Online Help</HelpLink>
+		<HelpVideo video="http://www.viddler.com/player/6ca315d3" ActiveVideo="false">Virtualterminal Video</HelpVideo>
+		</TabSection>
+		<TabSection Name="Custom Question Mapping" display="true">
+		<HelpDescription/>
+		<HelpLink link="http://help.clickandpledge.com/customer/portal/articles/1164713" ActiveLink="true">Online Help</HelpLink>
+		<HelpVideo video="http://www.viddler.com/player/c9c2f740" ActiveVideo="false">Custom Question Mapping Video</HelpVideo>
+		</TabSection>
+		<TabSection Name="Swiper" display="true">
+		<HelpDescription/>
+		<HelpLink link="http://help.clickandpledge.com/customer/portal/articles/1164704" ActiveLink="true">Online Help</HelpLink>
+		<HelpVideo video="http://www.viddler.com/player/3945b109" ActiveVideo="false">Swiper Video</HelpVideo>
+		</TabSection>
+		<TabSection Name="SMTP" display="true">
+		<HelpDescription/>
+		<HelpLink link="http://help.clickandpledge.com/customer/portal/articles/2084103" ActiveLink="true">Online Help</HelpLink>
+		<HelpVideo video="http://www.viddler.com/player/e03d1543" ActiveVideo="false">SMTP Video</HelpVideo>
+		</TabSection>
+		<TabSection Name="AutoResponder Defaults" display="true">
+		<HelpDescription/>
+		<HelpLink link="http://help.clickandpledge.com/customer/portal/articles/2338756" ActiveLink="true">Online Help</HelpLink>
+		<HelpVideo video="http://www.viddler.com/player/e03d1543" ActiveVideo="false">AutoResponder Defaults Video</HelpVideo>
+		</TabSection>
+		<TabSection Name="AutoResponder" display="true">
+		<HelpDescription/>
+		<HelpLink link="http://help.clickandpledge.com/customer/portal/articles/1164739" ActiveLink="true">Online Help</HelpLink>
+		<HelpVideo video="http://www.viddler.com/player/e2474a3b" ActiveVideo="false">AutoResponder Email Video</HelpVideo>
+		</TabSection>
+		<TabSection Name="AutoResponder SMS" display="true">
+		<HelpDescription/>
+		<HelpLink link="http://help.clickandpledge.com/customer/portal/articles/2554117" ActiveLink="true">Online Help</HelpLink>
+		<HelpVideo video="http://www.viddler.com/player/e2474a3b" ActiveVideo="false">AutoResponder SMS Video</HelpVideo>
+		</TabSection>
+		<TabSection Name="Analytics" display="true">
+		<HelpDescription/>
+		<HelpLink link="http://help.clickandpledge.com/customer/en/portal/articles/2346576" ActiveLink="true">Online Help</HelpLink>
+		<HelpVideo video="http://www.viddler.com/player/e2474a3b" ActiveVideo="false">Analytics Video</HelpVideo>
+		</TabSection>
+		<TabSection Name="Countries" display="true">
+		<HelpDescription/>
+		<HelpLink link="http://help.clickandpledge.com/customer/portal/articles/1164701" ActiveLink="true">Online Help</HelpLink>
+		<HelpVideo video="http://www.viddler.com/player/f586ebce" ActiveVideo="false">Countries Video</HelpVideo>
+		</TabSection>
+		<TabSection Name="Notifications" display="true">
+		<HelpDescription/>
+		<HelpLink link="http://help.clickandpledge.com/customer/portal/articles/2084266" ActiveLink="true">Online Help</HelpLink>
+		<HelpVideo video="http://www.viddler.com/player/5affdbb1" ActiveVideo="false">Notifications Video</HelpVideo>
+		</TabSection>
+		<TabSection Name="Relationships" display="true">
+		<HelpDescription/>
+		<HelpLink link="http://help.clickandpledge.com/customer/portal/articles/2084251" ActiveLink="true">Online Help</HelpLink>
+		<HelpVideo video="http://www.viddler.com/player/aec77375" ActiveVideo="false">Relationships Video</HelpVideo>
+		</TabSection>
+		<TabSection Name="Third Party" display="true">
+		<HelpDescription/>
+		<HelpLink link="http://help.clickandpledge.com/customer/portal/articles/2332117" ActiveLink="true">Online Help</HelpLink>
+		<HelpVideo video="http://www.viddler.com/player/aec77375" ActiveVideo="false">Third Party Video</HelpVideo>
+		</TabSection>
+		<TabSection Name="AboutCnP" display="true">
+		<HelpDescription/>
+		<HelpLink link="http://help.clickandpledge.com/customer/portal/articles/2084172" ActiveLink="true">Online Help</HelpLink>
+		<HelpVideo video="http://www.viddler.com/player/aec77375" ActiveVideo="false">About Click and Pledge APP Video</HelpVideo>
+		</TabSection>
+		<TabSection Name="Maintenance" display="true">
+		<HelpDescription/>
+		<HelpLink link="http://help.clickandpledge.com/customer/portal/articles/2084057" ActiveLink="true">Online Help</HelpLink>
+		<HelpVideo video="http://www.viddler.com/player/e03d1543" ActiveVideo="false">Maintenance Video</HelpVideo>
+		</TabSection>
+	</HelpTab>
+	<HelpTab TabName="VT Tab" label="VT Tab">
+		<TabSection Name="VT Tab" display="true">
+		<HelpDescription/>
+		<HelpLink link="http://help.clickandpledge.com/customer/portal/articles/2443289" ActiveLink="true">Online Help</HelpLink>
+		<HelpVideo video="http://www.viddler.com/embed/7fac3908"  ActiveVideo="false">VT Video</HelpVideo>
+		</TabSection>
+	</HelpTab>
+	<HelpTab TabName="Transaction" label="Transaction">
+		<TabSection Name="TransactionView" display="false">
+		<HelpDescription/>
+		<HelpLink link="http://manual.clickandpledge.com/Portal-Transaction.html" ActiveLink="false">Transaction Link</HelpLink>
+		<HelpVideo video="http://www.viddler.com/player/e03d1543"  ActiveVideo="false">Transaction Video</HelpVideo>
+		</TabSection>
+	</HelpTab>
+	<HelpTab TabName="Recurring" label="Recurring">
+		<TabSection Name="RecurringView" display="true">
+		<HelpDescription/>
+		<HelpLink link="http://help.clickandpledge.com/customer/portal/articles/2362823" ActiveLink="true">Recurring Link</HelpLink>
+		<HelpVideo video="http://www.viddler.com/player/e03d1543"  ActiveVideo="false">Recurring Video</HelpVideo>
+		</TabSection>
+	</HelpTab>
+	<HelpTab TabName="Designer" label="Designer">
+		<TabSection Name="selector" display="false">
+		<HelpDescription/>
+		<HelpLink link="http://manual.clickandpledge.com/Portal-invoice.html" ActiveLink="false">Selector Link</HelpLink>
+		<HelpVideo video="http://www.viddler.com/player/e03d1543"  ActiveVideo="false">Selector Video</HelpVideo>
+		</TabSection>
+		<TabSection Name="designer" display="true">
+		<HelpDescription/>
+		<HelpLink link="http://help.clickandpledge.com/customer/portal/articles/1164744" ActiveLink="true">Designer Link</HelpLink>
+		<HelpVideo video="http://www.viddler.com/player/e03d1543"  ActiveVideo="false">Designer Video</HelpVideo>
+		</TabSection>
+		<TabSection Name="designerView" display="false">
+		<HelpDescription/>
+		<HelpLink link="http://manual.clickandpledge.com/Portal-invoice.html" ActiveLink="false">DesignerView Link</HelpLink>
+		<HelpVideo video="http://www.viddler.com/player/e03d1543"  ActiveVideo="false">DesignerView Video</HelpVideo>
+		</TabSection>
+	</HelpTab>
+	<HelpTab TabName="TemporaryContact" label="TemporaryContact">
+		<TabSection Name="TemporaryContact" display="true">
+		<HelpDescription/>
+		<HelpLink link="http://help.clickandpledge.com/customer/portal/articles/2464138" ActiveLink="true">TemporaryContact Link</HelpLink>
+		<HelpVideo video="http://www.viddler.com/player/e03d1543"  ActiveVideo="false">TemporaryContact Video</HelpVideo>
+		</TabSection>
+	</HelpTab>
+	<HelpTab TabName="Importer" label="Importer">
+		<TabSection Name="Importer" display="false">
+		<HelpDescription/>
+		<HelpLink link="http://help.clickandpledge.com/customer/portal/articles/2346577" ActiveLink="false">Importer Link</HelpLink>
+		<HelpVideo video="http://www.viddler.com/player/e03d1543"  ActiveVideo="false">Importer Video</HelpVideo>
+		</TabSection>
+	</HelpTab>
+	<HelpTab TabName="Reports" label="Reports">
+		<TabSection Name="Custom Reports" display="false">
+		<HelpDescription/>
+		<HelpLink link="http://manual.clickandpledge.com/Portal-Reports.html" ActiveLink="false">CustomReports Link</HelpLink>
+		<HelpVideo video="http://www.viddler.com/player/e03d1543"  ActiveVideo="false">CustomReports Video</HelpVideo>
+		</TabSection>
+		<TabSection Name="Reports" display="false">
+		<HelpDescription/>
+		<HelpLink link="http://manual.clickandpledge.com/Portal-Reports.html" ActiveLink="false">Reports Link</HelpLink>
+		<HelpVideo video="http://www.viddler.com/player/e03d1543"  ActiveVideo="false">Reports Video</HelpVideo>
+		</TabSection>
+		<TabSection Name="Templates" display="false">
+		<HelpDescription/>
+		<HelpLink link="http://manual.clickandpledge.com/Portal-Reports.html" ActiveLink="false">Templates Link</HelpLink>
+		<HelpVideo video="http://www.viddler.com/player/e03d1543"  ActiveVideo="false">Templates Video</HelpVideo>
+		</TabSection>
+	</HelpTab>
+	<HelpTab TabName="BatchUpload" label="BatchUpload">
+		<TabSection Name="BatchUpload" display="false">
+		<HelpDescription/>
+		<HelpLink link="http://manual.clickandpledge.com/Portal-BatchUpload.html" ActiveLink="false">BatchUpload Link</HelpLink>
+		<HelpVideo video="http://www.viddler.com/player/e03d1543"  ActiveVideo="false">BatchUpload Video</HelpVideo>
+		</TabSection>
+	</HelpTab>
+	<HelpTab TabName="Rollups" label="Rollups">
+		<TabSection Name="Rollups" display="false">
+		<HelpDescription/>
+		<HelpLink link="http://manual.clickandpledge.com/Portal-Rollups.html" ActiveLink="false">Rollups Link</HelpLink>
+		<HelpVideo video="http://www.viddler.com/player/e03d1543"  ActiveVideo="false">Rollups Video</HelpVideo>
+		</TabSection>
+	</HelpTab>
+	<HelpTab TabName="eVT" label="eVT">
+		<TabSection Name="eVT" display="false">
+		<HelpDescription/>
+		<HelpLink link="http://manual.clickandpledge.com/Portal-Virtual-Terminal.html" ActiveLink="false">eVT Link</HelpLink>
+		<HelpVideo video="http://www.viddler.com/player/e03d1543"  ActiveVideo="false">eVT Video</HelpVideo>
+		</TabSection>
+	</HelpTab>
+	<HelpTab TabName="AutoResponder Log" label="AutoResponder Log">
+		<TabSection Name="AutoResponder Log" display="false">
+		<HelpDescription/>
+		<HelpLink link="http://manual.clickandpledge.com/Portal-AutoResponderLog.html" ActiveLink="false">AutoResponderLog Link</HelpLink>
+		<HelpVideo video="http://www.viddler.com/player/e03d1543"  ActiveVideo="false">AutoResponderLog Video</HelpVideo>
+		</TabSection>
+	</HelpTab>
+	<HelpTab TabName="AutoResponder Queue" label="AutoResponder Queue">
+		<TabSection Name="AutoResponder Queue" display="false">
+		<HelpDescription/>
+		<HelpLink link="http://manual.clickandpledge.com/Portal-AutoResponderQueue.html" ActiveLink="false">AutoResponderQueue Link</HelpLink>
+		<HelpVideo video="http://www.viddler.com/player/e03d1543"  ActiveVideo="false">AutoResponderQueue Video</HelpVideo>
+		</TabSection>
+	</HelpTab>
+	<HelpTab TabName="ContactAlias" label="ContactAlias">
+		<TabSection Name="ContactAlias" display="true">
+		<HelpDescription/>
+		<HelpLink link="http://help.clickandpledge.com/customer/portal/articles/2346574" ActiveLink="true">AliasContact Link</HelpLink>
+		<HelpVideo video="http://www.viddler.com/player/e03d1543"  ActiveVideo="false">AliasContact Video</HelpVideo>
+		</TabSection>
+	</HelpTab>
+	<HelpTab TabName="Contact-Relationship" label="Contact-Relationship">
+		<TabSection Name="Contact-Relationship" display="false">
+		<HelpDescription/>
+		<HelpLink link="http://manual.clickandpledge.com/Portal-ContactAlias.html" ActiveLink="false">AliasContact Link</HelpLink>
+		<HelpVideo video="http://www.viddler.com/player/e03d1543"  ActiveVideo="false">AliasContact Video</HelpVideo>
+		</TabSection>
+	</HelpTab>
+	<HelpTab TabName="Opportunity-Relationship" label="Opportunity-Relationship">
+		<TabSection Name="Opportunity-Relationship" display="false">
+		<HelpDescription/>
+		<HelpLink link="http://manual.clickandpledge.com/Portal-ContactAlias.html" ActiveLink="false">AliasContact Link</HelpLink>
+		<HelpVideo video="http://www.viddler.com/player/e03d1543"  ActiveVideo="false">AliasContact Video</HelpVideo>
+		</TabSection>
+	</HelpTab>
+	<HelpTab TabName="Opportunity-Allocation" label="Opportunity-Allocation">
+		<TabSection Name="Opportunity-Allocation" display="false">
+		<HelpDescription/>
+		<HelpLink link="http://manual.clickandpledge.com/Portal-ContactAlias.html" ActiveLink="false">Opportunity Allocation Link</HelpLink>
+		<HelpVideo video="http://www.viddler.com/player/e03d1543"  ActiveVideo="false">Opportunity Allocation Video</HelpVideo>
+		</TabSection>
+	</HelpTab>
+	<HelpTab TabName="Pledge" label="Pledge">
+		<TabSection Name="Pledge" display="true">
+		<HelpDescription/>
+		<HelpLink link="http://help.clickandpledge.com/customer/portal/articles/2084178" ActiveLink="true">Pledge Link</HelpLink>
+		<HelpVideo video="http://www.viddler.com/player/e03d1543"  ActiveVideo="false">Pledge Video</HelpVideo>
+		</TabSection>
+	</HelpTab>
+	<HelpTab TabName="Invoice" label="Invoice">
+		<TabSection Name="Invoices" display="true">
+		<HelpDescription/>
+		<HelpLink link="http://help.clickandpledge.com/customer/portal/articles/2084130" ActiveLink="true">Invoices Link</HelpLink>
+		<HelpVideo video="http://www.viddler.com/player/e03d1543"  ActiveVideo="false">Invoices Video</HelpVideo>
+		</TabSection>
+	    <TabSection Name="Invoice Policy" display="true">
+		<HelpDescription/>
+		<HelpLink link="http://help.clickandpledge.com/customer/portal/articles/2358072" ActiveLink="true">Invoice Policy Link</HelpLink>
+		<HelpVideo video="http://www.viddler.com/player/e03d1543"  ActiveVideo="false">Invoice Policy Video</HelpVideo>
+		</TabSection>
+	    <TabSection Name="Invoice Setting" display="true">
+		<HelpDescription/>
+		<HelpLink link="http://help.clickandpledge.com/customer/portal/articles/2358061" ActiveLink="true">Invoice Setting Link</HelpLink>
+		<HelpVideo video="http://www.viddler.com/player/e03d1543"  ActiveVideo="false">Invoice Setting Video</HelpVideo>
+		</TabSection>
+	</HelpTab>
+	<HelpTab TabName="General Ledgers" label="General Ledgers">
+		<TabSection Name="General Ledgers" display="false">
+		<HelpDescription/>
+		<HelpLink link="http://manual.clickandpledge.com/Portal-ContactAlias.html" ActiveLink="false">General Ledgers Link</HelpLink>
+		<HelpVideo video="http://www.viddler.com/player/e03d1543"  ActiveVideo="false">General Ledgers Video</HelpVideo>
+		</TabSection>
+	    <TabSection Name="Classes and Subclasses" display="false">
+		<HelpDescription/>
+		<HelpLink link="http://manual.clickandpledge.com/Portal-ContactAlias.html" ActiveLink="false">Classes and Subclasses Link</HelpLink>
+		<HelpVideo video="http://www.viddler.com/player/e03d1543"  ActiveVideo="false">Classes and Subclasses Video</HelpVideo>
+		</TabSection>
+	    <TabSection Name="Allocations" display="false">
+		<HelpDescription/>
+		<HelpLink link="http://manual.clickandpledge.com/Portal-ContactAlias.html" ActiveLink="false">Allocations Link</HelpLink>
+		<HelpVideo video="http://www.viddler.com/player/e03d1543"  ActiveVideo="false">Allocations Video</HelpVideo>
+		</TabSection>
+		<TabSection Name="Allocations Report" display="false">
+		<HelpDescription/>
+		<HelpLink link="http://manual.clickandpledge.com/Portal-ContactAlias.html" ActiveLink="false">Allocations Report Link</HelpLink>
+		<HelpVideo video="http://www.viddler.com/player/e03d1543"  ActiveVideo="false">Allocations Report Video</HelpVideo>
+		</TabSection>
+	</HelpTab>
+	<HelpTab TabName="Broadcaster" label="Broadcaster">
+		<TabSection Name="Account Setting" display="false">
+		<HelpDescription/>
+		<HelpLink link="http://manual.clickandpledge.com/Portal-ContactAlias.html" ActiveLink="false">Account Setting Link</HelpLink>
+		<HelpVideo video="http://www.viddler.com/player/e03d1543"  ActiveVideo="false">Account Setting Video</HelpVideo>
+		</TabSection>
+	    <TabSection Name="Email Lists" display="false">
+		<HelpDescription/>
+		<HelpLink link="http://manual.clickandpledge.com/Portal-ContactAlias.html" ActiveLink="false">Email Lists Link</HelpLink>
+		<HelpVideo video="http://www.viddler.com/player/e03d1543"  ActiveVideo="false">Email Lists Video</HelpVideo>
+		</TabSection>
+	    <TabSection Name="Email Designers" display="false">
+		<HelpDescription/>
+		<HelpLink link="http://manual.clickandpledge.com/Portal-ContactAlias.html" ActiveLink="false">Email Designers Link</HelpLink>
+		<HelpVideo video="http://www.viddler.com/player/e03d1543"  ActiveVideo="false">Email Designers Video</HelpVideo>
+		</TabSection>
+	</HelpTab>
+    <HelpTab TabName="Managing Events" Label="Managing Events">
+		<TabSection Name="Events" display="true">
+		    <HelpDescription>Events Page Description</HelpDescription>
+			<HelpLink  link="http://help.clickandpledge.com/customer/portal/articles/2320723" ActiveLink="true" >Online Help</HelpLink>
+			<HelpVideo video="http://www.viddler.com/player/e03d1543" ActiveVideo="false" >Events Vedio</HelpVideo>
+		
+		</TabSection>
+		<TabSection Name="Create An Event" display="true">
+		    <HelpDescription>Create An Event Page Description</HelpDescription>
+			<HelpLink  link="http://help.clickandpledge.com/customer/portal/articles/1485333" ActiveLink="true" >Online Help</HelpLink>
+			<HelpVideo video="http://www.viddler.com/player/e03d1543" ActiveVideo="false" >Create An Event Vedio</HelpVideo>
+		
+		</TabSection>
+		<TabSection Name="Statistics" display="true">
+		    <HelpDescription>Page Description</HelpDescription>
+			<HelpLink  link="http://help.clickandpledge.com/customer/portal/articles/2320740" ActiveLink="true" >Event Dashboard Link</HelpLink>
+			<HelpVideo video="http://www.viddler.com/player/e03d1543" ActiveVideo="false" >Statistics Video</HelpVideo>
+		</TabSection>
+		<TabSection Name="Additional Information" display="true">
+		    <HelpDescription>Page Description</HelpDescription>
+			<HelpLink  link="http://help.clickandpledge.com/customer/portal/articles/1485348" ActiveLink="true">Online Help</HelpLink>
+			<HelpVideo video="http://www.viddler.com/player/e03d1543" ActiveVideo="false">Additional Information Video</HelpVideo>
+		</TabSection>
+		<TabSection Name="Discount Plans" display="true">
+		    <HelpDescription>Page Description</HelpDescription>
+			<HelpLink  link="http://help.clickandpledge.com/customer/portal/articles/977038" ActiveLink="true">Online Help</HelpLink>
+			<HelpVideo video="http://www.viddler.com/player/8bbd0955" ActiveVideo="false">Discount Plans Video</HelpVideo>
+		</TabSection>
+		<TabSection Name="Messages" display="true">
+		    <HelpDescription>Page Description</HelpDescription>
+			<HelpLink  link="http://help.clickandpledge.com/customer/portal/articles/1485352" ActiveLink="true">Online Help</HelpLink>
+			<HelpVideo video="http://www.viddler.com/player/ad98df9" ActiveVideo="false">Messages Video</HelpVideo>
+		</TabSection>
+		<TabSection Name="Registration Emails" display="true">
+		    <HelpDescription>Page Description</HelpDescription>
+			<HelpLink  link="http://help.clickandpledge.com/customer/portal/articles/2078055" ActiveLink="true">Online Help</HelpLink>
+			<HelpVideo video="http://www.viddler.com/player/13cf25ad" ActiveVideo="false">Registration Emails Video</HelpVideo>
+		</TabSection>
+			<TabSection Name="Widgets" display="true">
+					<HelpDescription>Page Description</HelpDescription>
+					<HelpLink  link="http://help.clickandpledge.com/customer/portal/articles/2078106" ActiveLink="true">Online Help</HelpLink>
+					<HelpVideo video="http://www.viddler.com/player/e03d1543" ActiveVideo="false">widgets Video</HelpVideo>
+			</TabSection>
+		
+			<TabSection Name="Site Templates" display="true">
+					<HelpDescription>Page Description</HelpDescription>
+					<HelpLink  link="http://help.clickandpledge.com/customer/portal/articles/1485372" ActiveLink="true">Online Help</HelpLink>
+					<HelpVideo video="http://www.viddler.com/player/e03d1543" ActiveVideo="false">Sites Video</HelpVideo>
+			</TabSection>
+				
+			<TabSection Name="Tickets" display="true">
+					<HelpDescription>Page Description</HelpDescription>
+					<HelpLink  link="http://help.clickandpledge.com/customer/portal/articles/1485377" ActiveLink="true">Online Help</HelpLink>
+					<HelpVideo video="http://www.viddler.com/player/17abcd5d" ActiveVideo="false">Tickets Video</HelpVideo>
+			</TabSection>
+				
+			<TabSection Name="Name Badges" display="true">
+					<HelpDescription>Page Description</HelpDescription>
+					<HelpLink  link="http://help.clickandpledge.com/customer/portal/articles/1485385" ActiveLink="true">Online Help</HelpLink>
+					<HelpVideo video="http://www.viddler.com/player/5e921ef3" ActiveVideo="false">Name Badges Video</HelpVideo>
+			</TabSection>
+			<TabSection Name="Sites" display="true">
+					<HelpDescription>Page Description</HelpDescription>
+					<HelpLink  link="http://help.clickandpledge.com/customer/portal/articles/2078053" ActiveLink="true">Online Help</HelpLink>
+					<HelpVideo video="http://www.viddler.com/player/e8f692c8" ActiveVideo="false">Sites Video</HelpVideo>
+			</TabSection>
+
+			<TabSection Name="Form Fields" display="true">
+					<HelpDescription>Page Description</HelpDescription>
+					<HelpLink  link="http://help.clickandpledge.com/customer/portal/articles/2326807" ActiveLink="true">Online Help</HelpLink>
+					<HelpVideo video="http://www.viddler.com/player/e03d1543" ActiveVideo="false">Form Fields Video</HelpVideo>
+			</TabSection>
+		<TabSection Name="Check-In And Check-Out" display="true">
+		  <HelpDescription>Page Description</HelpDescription>
+			<HelpLink  link="http://help.clickandpledge.com/customer/portal/articles/1485387" ActiveLink="true">Online Help</HelpLink>
+			<HelpVideo video="http://www.viddler.com/player/e03d1543" ActiveVideo="false">Check-In Video</HelpVideo>
+		</TabSection>
+		<TabSection Name="Swiper1 Access" display="true">
+		  <HelpDescription>Page Description</HelpDescription>
+			<HelpLink  link="http://help.clickandpledge.com/customer/portal/articles/2432234" ActiveLink="true">Online Help</HelpLink>
+			<HelpVideo video="http://www.viddler.com/player/e03d1543" ActiveVideo="false">Swiper1 Access Video</HelpVideo>
+		</TabSection>
+		<TabSection Name="Registrations" display="true">
+		    <HelpDescription>Page Description</HelpDescription>
+			<HelpLink  link="http://help.clickandpledge.com/customer/portal/articles/2465237" ActiveLink="true">Online Help</HelpLink>
+			<HelpVideo video="http://www.viddler.com/player/e05e4904" ActiveVideo="false">Registrations Video</HelpVideo>
+		</TabSection>		
+		<TabSection Name="Default Settings" display="true">
+		    <HelpDescription>Page Description</HelpDescription>
+			<HelpLink  link="http://help.clickandpledge.com/customer/portal/articles/2395171" ActiveLink="true">Online Help</HelpLink>
+			<HelpVideo video="http://www.viddler.com/player/e03d1543" ActiveVideo="false">Default Settings Video</HelpVideo>
+		</TabSection>
+		<TabSection Name="Box Office" display="true">
+		    <HelpDescription>Page Description</HelpDescription>
+			<HelpLink  link="http://help.clickandpledge.com/customer/portal/articles/1485396" ActiveLink="true">Online Help</HelpLink>
+			<HelpVideo video="http://www.viddler.com/player/e03d1543" ActiveVideo="false">Default Settings Video</HelpVideo>
+		</TabSection>		
+			
+ </HelpTab>
+	<HelpTab TabName="Device Manager" label="Device Manager">
+		<TabSection Name="Device Manager" display="true">
+		    <HelpDescription>Description of Device Manager</HelpDescription>
+			<HelpLink  link="http://help.clickandpledge.com/customer/portal/articles/2217990" ActiveLink="true">Device Manager Link</HelpLink>
+			<HelpVideo video="http://www.viddler.com/player/e03d1543" ActiveVideo="false">Device Manager Video</HelpVideo>
+		</TabSection>
+	</HelpTab>
+
+	<HelpTab TabName="Event Listing Sites" label="Event Listing Sites">
+		<TabSection Name="Event Listing Sites" display="true">
+		    <HelpDescription>Page Description</HelpDescription>
+			<HelpLink  link="http://help.clickandpledge.com/customer/portal/articles/2078160" ActiveLink="true">Online Help</HelpLink>
+			<HelpVideo video="http://www.viddler.com/player/7ea4a393" ActiveVideo="false">Event Listing Sites Video</HelpVideo>
+		</TabSection>
+	</HelpTab>	
+	
+	<HelpTab TabName="Events Import" label="Events Import">
+	<TabSection Name="Events Import" display="true">
+		    <HelpDescription>Page Description</HelpDescription>
+			<HelpLink  link="http://help.clickandpledge.com/customer/portal/articles/2689545-event-management-for-salesforce-events-import" ActiveLink="true">Online Help</HelpLink>
+			<HelpVideo video="http://www.viddler.com" ActiveVideo="false">Events Import Video</HelpVideo>
+		</TabSection>
+	</HelpTab>	
+	
+</HelpTextDetails>
+<Miscellaneous>
+	<RequestUpgrade>https://forums.clickandpledge.com/forum/platform-product-forums/salesforce-upgrade-assistance</RequestUpgrade>
+</Miscellaneous>
+<Application>
+		<App Name="CnP_IaaS" >
+		<VersionNumber>5.1612000002</VersionNumber>
+		<Version>5.1612000002</Version>		
+		<AppExchangeLink>https://appexchange.salesforce.com/listingDetail?listingId=a0N30000009vEKZEA2</AppExchangeLink>
+		<Releasenotes>http://manual.clickandpledge.com/Salesforce-API-Release-Notes.html</Releasenotes>
+		<Upgrade>/packaging/installPackage.apexp?p0=04t0L00000052Fz</Upgrade>
+		<Forum>http://forums.clickandpledge.com/forumdisplay.php?f=58</Forum>
+		<Manual></Manual>
+		<Releasedate>12/07/2016</Releasedate>
+		<SalesforceHUB>https://powerofus.force.com/0F980000000CjpC</SalesforceHUB>
+		<Knowledgebase></Knowledgebase>
+	</App>
+	<App Name="CnP_PaaS">
+		<VersionNumber>9.1612080007</VersionNumber>
+		<Version>9.1612080007</Version>
+		<AppExchangeLink>https://appexchange.salesforce.com/listingDetail?listingId=a0N30000003JGBvEAO</AppExchangeLink>
+		<Releasenotes>http://manual.clickandpledge.com/Salesforce-PaaS-Release-Notes.html</Releasenotes>
+		<Upgrade>/packaging/installPackage.apexp?p0=4t0L000000VE15</Upgrade>
+		<Forum>http://forums.clickandpledge.com/forumdisplay.php?f=53</Forum>
+		<Manual>http://manual.clickandpledge.com/Salesforce.html</Manual>
+		<Releasedate>12/22/2016</Releasedate>
+		<SalesforceHUB>https://powerofus.force.com/0F980000000CjpC</SalesforceHUB>
+		<Knowledgebase>http://help.clickandpledge.com/customer/en/portal/topics/363769-donor-management-salesforce-app-/articles</Knowledgebase>
+	</App>
+	<App Name="CnP_PaaS_EVT" >
+		<VersionNumber>5.1612000011</VersionNumber>
+		<Version>5.1612000011</Version>
+		<AppExchangeLink>https://appexchange.salesforce.com/listingDetail?listingId=a0N30000005vRQ9EAM</AppExchangeLink>
+		<Releasenotes>http://manual.clickandpledge.com/Salesforce-Events-Release-Notes.html</Releasenotes>
+		<Upgrade>/packaging/installPackage.apexp?p0=04t900000002cyi</Upgrade>
+		<Forum>http://forums.clickandpledge.com/forumdisplay.php?f=56</Forum>
+		<Manual>http://manual.clickandpledge.com/Salesforce-Event.html</Manual>
+		<Releasedate>12/23/2016</Releasedate>
+		<SalesforceHUB>https://powerofus.force.com/0F980000000CjpC</SalesforceHUB>
+		<Knowledgebase>http://help.clickandpledge.com/customer/en/portal/topics/361648-event-management-salesforce-app-/articles</Knowledgebase>
+	</App>
+</Application>
+</CnPProcess>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Holds the Status settings for the campaigns by type of campaign</description>
+    <fields>
+        <fullName>Default__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>if true, this status is the default status for the campaign</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Default</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Group_Number__c</fullName>
+        <description>the group this Status belongs to.</description>
+        <externalId>false</externalId>
+        <fieldManageability>Locked</fieldManageability>
+        <label>Group Number</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Order__c</fullName>
+        <description>an integer number that gives the sort order to the specific status within the picklist</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Sort Order</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Responded__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>if true, this status is counted as Member Responded to this campaign</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Responded</label>
+        <type>Checkbox</type>
+    </fields>
+    <label>CM Status Setting</label>
+    <pluralLabel>CM Status Settings</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

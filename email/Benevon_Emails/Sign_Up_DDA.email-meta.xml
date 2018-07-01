@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>An email that goes to the contact when the contact signs up for a DDA event.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Sign Up DDA</name>
+    <style>freeForm</style>
+    <subject>You are signed up for {!CampaignMember.Campaign}!</subject>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

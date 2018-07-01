@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Activity Recap</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Activities Recap</value>
+    </caseValues>
+    <fields>
+        <label><!-- Activity Overview --></label>
+        <name>Activity_Overview__c</name>
+    </fields>
+    <fields>
+        <label><!-- Campaign --></label>
+        <name>CampaignId__c</name>
+        <relationshipLabel><!-- Activities Recap --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Opportunities for Improvement --></label>
+        <name>Opportunities_for_Improvement__c</name>
+    </fields>
+    <fields>
+        <label><!-- Stories/Notes --></label>
+        <name>Stories_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Strength/Weaknesses --></label>
+        <name>Strength_Weaknesses__c</name>
+    </fields>
+    <layouts>
+        <layout>Activity Recap Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>
