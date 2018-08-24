@@ -1,0 +1,45 @@
+<aura:component controller="CloneAdventureApexController" implements="force:lightningQuickActionWithoutHeader,force:hasRecordId,flexipage:availableForAllPageTypes">
+    <!-- Declare variables to hold clones -->
+    <aura:attribute name="relatedRecords" type="RelRecords"/>
+    
+    <!-- Handle component initialization in a client-side controller -->
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    
+    <lightning:navigation aura:id="navLink"/>  
+    
+    <!-- New campaign Name, StartDate, and EndDate -->
+    <aura:attribute name="cloneCampaignName" type="String" default="{!v.relatedRecords.camp.Name}"/>
+    <aura:attribute name="cloneStartDate" type="Date" default="{!v.relatedRecords.camp.StartDate}"/>
+    <aura:attribute name="cloneEndDate" type="Date" default="{!v.relatedRecords.camp.EndDate}"/>
+    <!--create dateValidationError boolean attribute for show error msg on invalid selection
+      and disable submit button -->    
+    <aura:attribute name="dateValidationError" type="boolean" />
+    <aura:attribute name="newClonedCampaign" type="String" />
+    
+    <!-- Let user input new campaign name and dates -->
+    <div>the record id is = /{!v.recordId}/</div>
+    <lightning:input aura:id="cloneField"                      
+                     name="cloneName" label="New Campaign Name"
+                      value="{!v.cloneCampaignName}" required="true"/>
+  
+    <lightning:input aura:id="cloneSD" name="StartDate" label="Start Date"
+                     value="{!v.cloneStartDate}" />
+    <lightning:input aura:id="cloneED" name="EndDate" label="End Date"
+                     class="{! v.dateValidationError ? 'slds-has-error' : ''}"
+                     value="{!v.cloneEndDate}" 
+                     onChange="{!c.validateDate}"/>  
+    <aura:if isTrue="{!v.dateValidationError}">
+        <div class="slds-text-color_error slds-p-left_x-small">
+            End date must be after Begin Date.
+        </div>
+    </aura:if>  
+    <!-- buttons -->
+    <lightning:button label="Cancel" onclick="{!c.handleCancel}" class="slds-m-top_medium" />
+    <lightning:button disabled="{!v.dateValidationError}"
+                      label="Continue" 
+                      onclick="{!c.handleSaveClones}"
+                      variant="brand" 
+                      class="slds-m-top_medium"/>
+
+    
+</aura:component>
