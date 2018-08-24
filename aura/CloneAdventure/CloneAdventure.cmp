@@ -9,6 +9,8 @@
     
     <!-- New campaign Name, StartDate, and EndDate -->
     <aura:attribute name="cloneCampaignName" type="String" default="{!v.relatedRecords.camp.Name}"/>
+    <aura:attribute name="cloneJobName" type="String" default="{!v.relatedRecords.VolJobs[0].Name}"/>
+    
     <aura:attribute name="cloneStartDate" type="Date" default="{!v.relatedRecords.camp.StartDate}"/>
     <aura:attribute name="cloneEndDate" type="Date" default="{!v.relatedRecords.camp.EndDate}"/>
     <!--create dateValidationError boolean attribute for show error msg on invalid selection
@@ -17,7 +19,7 @@
     <aura:attribute name="newClonedCampaign" type="String" />
     
     <!-- Let user input new campaign name and dates -->
-    <div>the record id is = /{!v.recordId}/</div>
+    <div style="display: none;">the record id is = /{!v.recordId}/</div>
     <lightning:input aura:id="cloneField"                      
                      name="cloneName" label="New Campaign Name"
                       value="{!v.cloneCampaignName}" required="true"/>
@@ -33,6 +35,9 @@
             End date must be after Begin Date.
         </div>
     </aura:if>  
+    <lightning:input aura:id="cloneField"                      
+                     name="cloneJobName" label="New Job Name"
+                     value="{!v.cloneJobName}" required="false"/>
     <!-- buttons -->
     <lightning:button label="Cancel" onclick="{!c.handleCancel}" class="slds-m-top_medium" />
     <lightning:button disabled="{!v.dateValidationError}"

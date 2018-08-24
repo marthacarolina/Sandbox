@@ -1,7 +1,5 @@
 ({
     loadRRinfo : function(cmp) {
-        //give a variable the id of the campaign record to clone
-        //cmp.set("v.originalID", cmp.get("v.recordId"));
         // Load related campaign(volunteer) and related jobs and shifts
         var action = cmp.get("c.getRelatedRecords");
         action.setParams({ "cloneId" : cmp.get("v.recordId")})
@@ -38,7 +36,8 @@
         action.setParams({ "campId" : cmp.get("v.relatedRecords.camp.Id"),
                           "campName" : cmp.get("v.cloneCampaignName"),
                           "campStartDate" :  JSON.stringify(stStartDate),
-                          "campEndDate" : JSON.stringify(stEndDate)
+                          "campEndDate" : JSON.stringify(stEndDate),
+                          "jobName" : cmp.get("v.cloneJobName")
                          })
         action.setCallback(this, function(response) {
             var state = response.getState();
@@ -46,7 +45,6 @@
             if(state === "SUCCESS") {
                 //the result is the ID of the campaign cloned set that value
                 //in the variable newCloneCampaign
-                alert("response getReturnValue = "+ response.getReturnValue());
                 cmp.set("v.newClonedCampaign", response.getReturnValue());
                 // Prepare a toast UI message
                 var resultsToast = $A.get("e.force:showToast");
@@ -58,10 +56,9 @@
                 // Update the UI: close panel, show toast, refresh account page
                 $A.get("e.force:closeQuickAction").fire();
                 resultsToast.fire();
-                //  $A.get("e.force:refreshView").fire();
+                //prepare the navigation to the new record
                 var navLink = cmp.find("navLink");
 
-                alert('RecordId of new Campaign : '+ cmp.get("v.newClonedCampaign"));
                 var pageRef = {
                     type: "standard__recordPage",
                     attributes: {
@@ -70,6 +67,7 @@
                         recordId : cmp.get("v.newClonedCampaign")
                     }
                 };
+                //navigate to new record
                 navLink.navigate(pageRef);
             }
             else if (state === "ERROR") {
