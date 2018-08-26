@@ -83,7 +83,7 @@
         </table>
         <hr />
         <!-- Beginning of Participant Information -->
-        <div style="display:{!if(contact.Participant__c, 'block;', 'none;')}">
+        <div style="display:{!if(contact.Participant__c, 'block;', 'none;')}" >
             <table width="100%">
                 <tr width = "100%">
                     <td width = "25%" style="font-size:10pt;" align="right">
@@ -125,12 +125,11 @@
                 </tr>
             </table>
             <!-- End of Main Member info  -->    
-            
-            
+                        
             <!-- Start Member Mobility and Physical Support  -->    
             
             <div style="font-family:Tahoma, Geneva,sans-serif;font-size:11pt;">
-                <span style="font-family: Tahoma, Geneva, sans-serif;font-size:12pt;">Mobility And Physical Support</span>
+                Mobility And Physical Support
             </div>
             <table width = "100%">
                 <tr width = "100%">
@@ -146,19 +145,20 @@
                     <td width = "25%" style="font-size:10pt;">
                         <apex:outputText value="{!contact.Other_Assistive_Aides__c}" />                    
                     </td>           
-                </tr>            <tr width = "100%">
-                <td width = "25%" style="font-size:10pt;" align="right">
-                    <apex:outputText value="Hand Grip: " />
-                </td>
-                <td width = "25%" style="font-size:10pt;">
-                    <apex:outputText value="{!contact.Hand_Grip__c}" />                    
-                </td>
-                <td width = "25%" style="font-size:10pt;" align="right">
-                    <apex:outputText value="Propulsion Navigation: " />
-                </td>
-                <td width = "25%" style="font-size:10pt;">
-                    <apex:outputText value="{!contact.Propulsion_navigation__c}" />                    
-                </td>           
+                </tr>            
+                <tr width = "100%">
+                    <td width = "25%" style="font-size:10pt;" align="right">
+                        <apex:outputText value="Hand Grip: " />
+                    </td>
+                    <td width = "25%" style="font-size:10pt;">
+                        <apex:outputText value="{!contact.Hand_Grip__c}" />                    
+                    </td>
+                    <td width = "25%" style="font-size:10pt;" align="right">
+                        <apex:outputText value="Propulsion Navigation: " />
+                    </td>
+                    <td width = "25%" style="font-size:10pt;">
+                        <apex:outputText value="{!contact.Propulsion_navigation__c}" />                    
+                    </td>           
                 </tr>
                 <tr>
                     <td width = "25%" style="font-size:10pt;" align="right">
@@ -248,7 +248,7 @@
             <hr />
             <div style="display:{!if(contact.Sensory_Sensitivities__c = 'No concerns','none', 'block')};" >            
                 <div style="font-family:Tahoma, Geneva,sans-serif;font-size:11pt;">
-                    <span style="font-family: Tahoma, Geneva, sans-serif;font-size:12pt;">Sensory Concerns</span>
+                    Sensory Concerns
                 </div> 
                 <table width="100%">
                     <tr width="100%">
@@ -286,7 +286,7 @@
             <!-- Start Member Behavioral Support  -->            
             <hr />
             <div style="font-family:Tahoma, Geneva,sans-serif;font-size:11pt;">
-                <span style="font-family: Tahoma, Geneva, sans-serif;font-size:12pt;">Behavioral Support</span>
+                Behavioral Support
             </div> 
             <table width="100%">
                 <tr width="100%">
@@ -338,7 +338,7 @@
             <!-- Start Member Cognition and Processing  -->                    
             <hr />
             <div style="font-family:Tahoma, Geneva,sans-serif;font-size:11pt;">
-                <span style="font-family: Tahoma, Geneva, sans-serif;font-size:12pt;">Cognition and Processing</span>
+                Cognition and Processing
             </div> 
             <table width="100%">
                 <tr width="100%">
@@ -431,7 +431,7 @@
             <!-- Start Member General Activity Information  -->                    
             <hr />
             <div style="font-family:Tahoma, Geneva,sans-serif;font-size:11pt;">
-                <span style="font-family: Tahoma, Geneva, sans-serif;font-size:12pt;">General Activity Information</span>
+                General Activity Information
             </div> 
             <table width="100%">
                 <tr width="100%">
@@ -507,17 +507,21 @@
                         <apex:outputText value="{!if(contact.Media_Release__c,'Yes','No')}" />                    
                     </td>
                 </tr>
-                <tr>
-                    <apex:outputText value="Allergies: " />
-                    <apex:outputText value="{!contact.Allergies__c}" />                    
-                </tr>
+            </table>
+            <table width="100%">
+                <tr width="100%">
+                    <td width="100%" style="font-size:10pt;">
+                        <apex:outputText value="Allergies: " />
+                        <apex:outputText value="{!contact.Allergies__c}" />
+                    </td>
+                </tr>                
             </table>
             <!-- End Member General Activity Information  -->                    
         </div>
         <!-- End of Participant Information -->
         
         <!-- Start of Volunteer Information -->
-        <div style="display:{!if(contact.Volunteer__c, 'block;', 'none;')}">
+        <div style="display:{!if(contact.Volunteer__c, 'block', 'none')};">
             <!-- General Volunteer information -->
             <span style="font-family: Tahoma, Geneva, sans-serif;font-size:12pt;">General Information</span>
             <table width="100%">
