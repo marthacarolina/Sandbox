@@ -1,5 +1,6 @@
 //test for class VolRegistrationController the controller works with the VF page
 //VolApplication
+//rev 9/1/2018
 //
 //Martha Vance
 
@@ -27,8 +28,12 @@ public class VolRegistrationController_Test {
         cont.Allergies__c = 'dairy, penicillin';
         cont.CPR_Certificate_Expiration_Date__c = date.today() + 7;
         cont.First_Aid_Certification_Expiration_Date__c = date.today() + 7;
-        cont.Fingerprint_Clearance_Expiration_Date__c = date.today() - 15;
+        cont.Fingerprint_Clearance_Expiration_Date__c = date.today() - 15;        
         controller.volunteer = cont;
+        //add a medication
+        controller.meds[0].medication.Name = 'Aspirine';
+        controller.meds[0].medication.Dose__c = '100 mg';
+        controller.meds[0].medication.Frequency__c = '1 x day';
         //submit the form
         controller.save();
         system.assertEquals(true, controller.volunteer.CPR_Certificate__c);

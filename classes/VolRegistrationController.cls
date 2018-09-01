@@ -1,4 +1,5 @@
-//Controller for visualforce page volApplication
+//Controller for visualforce page volApplication - Volunteer Intake visualforce page
+//rev. 09/1/2018
 //
 //Martha Vance
 
@@ -10,8 +11,7 @@ public class VolRegistrationController {
     public date wildernesCertDate {get;set;}
     public moreCerts moreCerts {get;set;}
     public Application__c vApplication {get;set;}
-    public List<Medication__c> meds {get;set;}
-    public Medication__c med {get;set;}
+    public list<medRecs> meds {get;set;}
     
     @testVisible private Boolean changeEmailAddress;
     @TestVisible private Boolean newContact;
@@ -43,7 +43,7 @@ public class VolRegistrationController {
         }  
         moreCerts = new moreCerts();        
         vApplication = new Application__c();
-        meds = new List<Medication__c>();
+        meds = getMeds();
         changeEmailAddress = false;
         newContact = false;
         triedUpdate = false;
@@ -51,6 +51,16 @@ public class VolRegistrationController {
             Schema.SObjectType.Application__c.getRecordTypeInfosByName().get('Volunteer Application').getRecordTypeId();
         system.debug('record type id = ' + recTypeId);
         return true;
+    }
+    
+    public List<medRecs> getMeds(){
+        //initialize a list of 5 records for medications    
+        List<medRecs> medsT = new List<medRecs>();
+        for (integer x=0; x<5; x++){
+            medRecs med = new medRecs(x);
+            medsT.add(med);
+        }
+        return medsT;
     }
 
     public PageReference save() {
@@ -132,8 +142,28 @@ public class VolRegistrationController {
         catch (DmlException e) {
             ApexPages.addMessage(new ApexPages.message(ApexPages.Severity.ERROR, 
                                  'There was an error while trying to save the information. Please contact our office. Error: ' + e));
-            system.debug('there was an error while trying to insert: ' + e);
+            //system.debug('there was an error while trying to insert: ' + e);
             return null;
+        }
+        //add the medicines if there are any
+        List<Medication__c> medList = new List<Medication__c>();
+        for (integer x=0; x < 3; x++){            
+            if (meds[x].medication != null) {
+                if (meds[x].medication.Name != null){
+                    meds[x].medication.Contact_meds__c = volunteer.id;
+                    medList.add(meds[x].medication); 
+                }
+            }
+        }
+        if (medList.size() > 0){
+            try {
+                insert medList;
+            } 
+            catch (DmlException e) {
+                ApexPages.addMessage(new ApexPages.message(ApexPages.Severity.ERROR, 
+                                                           'There was an error while trying to save the Medication Records. Please contact our office. Error: ' + e));
+                return null;
+            }            
         }
         PageReference done = new PageReference('/apex/confApplicationVol');
         return done;
@@ -166,6 +196,15 @@ public class VolRegistrationController {
             allCerts = allCerts.trim();
             allCerts = allCerts.removeEnd(',');
             return allCerts;
+        }
+    }
+    
+    public class medRecs{
+        public Medication__c medication {get;set;}
+        public integer medIndex {get;set;}
+        public medRecs(integer x){
+            medication = new Medication__c();            
+            medIndex = x;
         }
     }
 }
