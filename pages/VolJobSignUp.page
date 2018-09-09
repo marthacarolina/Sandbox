@@ -1,0 +1,78 @@
+<!-- This page will be on one of the Volunteer site, it is for the public to sign up for a
+volunteer job/shift through our website -->
+
+<!-- Martha Vance Sept 2018 -->
+
+<apex:page showHeader="false" Controller="VolSignUpController" standardStylesheets="false" sidebar="false" applyHtmlTag="false" applyBodyTag="false" docType="html-5.0">
+    <html xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" lang="en" />
+    <head>
+        <!-- Import the Design System style sheet -->
+        <apex:slds />
+    </head>
+    <body style="background-color:#ffccb3;">
+        <div class="slds-scope">
+            <!-- run the method that initializes the page vars -->
+            <apex:variable var="dommy" value="{!begin}"/>
+            <!-- Page Title -->
+            <div style="margin:auto;width:400px;padding:20px;background-color:white;">
+                <h2 id="pageTitle" class="slds-text-heading_medium slds-m-vertical--large slds-text-align_center">Sign up for<br />
+                <apex:outputField value="{!job.Name}" /></h2>
+                <div class="slds-grid slds-wrap">
+                    <div class="slds-size_1-of-4">
+                        <div class="slds-text-align_right slds-m-around_xx-small">Where:</div>
+                    </div>
+                    <div class="slds-size_3-of-4">
+                        <div class="slds-text-align_left slds-m-around_xx-small">
+                            <apex:outputField value="{!job.GW_Volunteers__Location_Street__c}" /><br />
+                            <apex:outputField value="{!job.GW_Volunteers__Location_City__c}" />,&nbsp;
+                            <apex:outputField value="{!job.GW_Volunteers__Location__c}" />                        </div>
+                    </div>
+                </div>
+                <div class="slds-grid slds-wrap">
+                    <div class="slds-size_1-of-4">
+                        <div class="slds-text-align_right slds-m-around_xx-small">When:</div>
+                    </div>
+                    <div class="slds-size_3-of-4">
+                        <div class="slds-text-align_left slds-m-around_xx-small">
+                            <apex:outputField value="{!shift.GW_Volunteers__Start_Date_Time__c}" /> for&nbsp;
+                            <apex:outputField value="{!shift.GW_Volunteers__Duration__c}" />&nbsp;hours
+                        </div>
+                    </div>
+                </div>
+                <apex:form >
+                   
+                    <div class="slds-p-horizontal_large slds-m-vertical--medium">
+                        <!-- input the name, Last Name, email and Phone number -->
+                        <div class="slds-form-element">
+                            <label class="slds-form-element__label" for="input-unique-id">
+                                <abbr class="slds-required" title="required">*</abbr>First Name</label>
+                            <div class="slds-form-element__control">
+                                <apex:inputText value="{!volunteer.FirstName}" styleClass="slds-input" />
+                            </div>
+                        </div>
+                        <div class="slds-form-element">
+                            <label class="slds-form-element__label" for="input-unique-id">
+                                <abbr class="slds-required" title="required">*</abbr>Last Name</label>
+                            <div class="slds-form-element__control">
+                                <apex:inputText value="{!volunteer.LastName}" styleClass="slds-input" />
+                            </div>
+                        </div>
+                        <div class="slds-form-element">
+                            <label class="slds-form-element__label" for="input-unique-id">
+                                <abbr class="slds-required" title="required">*</abbr>Email</label>
+                            <div class="slds-form-element__control">
+                                <apex:inputText value="{!volunteer.Email}" styleClass="slds-input"/>
+                            </div>
+                        </div>
+                    </div>              
+                    <div class="slds-text-heading_small slds-text-color_error">
+                        <apex:pageMessages ></apex:pageMessages>
+                    </div>
+                    <apex:commandButton value="Sign Up" action="{!save}" style="font-size:100%;" styleClass="slds-button slds-align_absolute-center slds-button_neutral slds-button_outline-brand slds-m-top_medium"/>                
+                </apex:form>
+            </div>
+            
+        </div>
+    </body>
+    
+</apex:page>

@@ -1,0 +1,48 @@
+<!-- VolJobSignupResult - this page displays after a volunteer signs up to a campaign.
+     
+
+     Martha Vance - Sept 2019
+-->
+
+<apex:page showHeader="false" standardStylesheets="false" sidebar="false" applyHtmlTag="false" applyBodyTag="false" docType="html-5.0">
+    <html xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" lang="en" />
+    <head>
+        <!-- Import the Design System style sheet -->
+        <apex:slds />
+    </head>
+    <body style="background-color:#ffccb3;">
+        <div class="slds-scope">
+            <div class="slds-box" style="background-color:white;">
+                <div class="slds-text-heading_medium">
+                    <p><br />{!$CurrentPage.parameters.name}, </p>
+                    <div style="{!IF($CurrentPage.parameters.success == '0','display:block;','display:none')}">                        
+                        <p><br />
+                            Our database does NOT show you as a Qualified Volunteer. Daring
+                            Adventures serves a vulnerable population; for this reason we require that volunteers
+                            have current CPR and First Aid certifications, as well as a current Fingerprint 
+                            Clearnace Card. 
+                        </p><br />     
+                        <p>
+                            If you already have these certifications, please contact Sarah Lindvay at 
+                            <a href="mailto:sarah@daring-adventures.org">Sarah@daring-adventures.org</a>
+                            or (602)290-0214.
+                        </p><br />
+                        <p>
+                            For more information about volunteering with Daring Adventures visit our  
+                            <a href="https://www.daring-adventures.org/volunteer-info-1">Volunteer information</a> page.
+                        </p>
+                    </div>
+                    <div style="{!IF($CurrentPage.parameters.success == '1','display:block;','display:none')}">                        
+                        <p>
+                            <br/>
+                            Your request to volunteer has been submitted.<br /> 
+                            We will evaluate your request and
+                            based on our needs and your skills, it will be approved or denied. We will notify you by
+                            email.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</apex:page>

@@ -1,0 +1,95 @@
+<!-- ApprovalScreen - attributes:  - this page displays after a volunteer tries to signup to a campaign, but the volunteer is not
+a qualified volunteer.
+
+Martha Vance
+-->
+<apex:page controller="VolApprovalController" showHeader="false" standardStylesheets="false" sidebar="false" applyHtmlTag="false" applyBodyTag="false" docType="html-5.0">
+    <html xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" lang="en" />
+    <head>
+        <!-- Import the Design System style sheet -->
+        <apex:slds />
+        <style type="text/css">                       
+            #button-green { border-radius:10px;
+                            border-style:none;
+                            background-color:green;
+                            color:white;
+                            font-weight:bold;
+                           }
+            .red  { background-color:red; }
+        </style>
+    </head>
+    <body style="background-color:#ffccb3;">
+        <div class="slds-scope">
+            <!-- run the method that initializes the page vars -->
+            <apex:variable var="dommy" value="{!init}"/>
+            <div class="slds-box" style="background-color:white;">
+                <div class="slds-text-heading_large">
+                    {!volCampaign.Name}
+                    <div class="slds-text-heading_medium slds-p-around_medium"> 
+                        Job: {!job.Name}
+                        <div class="slds-text-heading_medium slds-p-around_small">
+                            Desired Number of Volunteers: {!shift.GW_Volunteers__Desired_Number_of_Volunteers__c}<br />
+                            Number of Volunteers Still Needed: 
+                            <span class="slds-text-color_error">{!shift.GW_Volunteers__Number_of_Volunteers_Still_Needed__c}</span>
+                        </div>
+                        <!-- display a list of the volunteers already signed up (regardless of status) -->                        
+                       <!-- <div class="slds-grid slds-wrap"> -->
+                            <!-- div class="slds-size_1-of-2" -->                                
+
+                                    Volunteers Signed Up
+                                    <div class="slds-text-heading_small slds-p-around_small" style="width:auto;">
+                                        <table class="slds-table slds-table_cell-buffer slds-table_bordered slds-table_col-bordered" style="width:auto;">
+                                            <tr class="slds-line-height_reset" style="width:auto;">
+                                                <th class="slds-text-title_caps" scope="col" style="width:auto;">
+                                                    <div class="slds-truncate" title="Name">Name</div>
+                                                </th>
+                                                <th class="slds-text-title_caps" scope="col" style="width:auto;">
+                                                    <div class="slds-truncate" title="Status">Status</div>
+                                                </th>
+                                            </tr>
+                                            <apex:repeat value="{!volunteersInList}" var="vol">
+                                                <tr class="slds-hint-parent" style="width:auto;">
+                                                    <td class="slds-truncate" style="width:auto;">
+                                                        {!vol.GW_Volunteers__Full_Name__c}
+                                                    </td>
+                                                    <td class="slds-truncate" style="width:auto;">
+                                                        {!vol.GW_Volunteers__Status__c}
+                                                    </td>
+                                                </tr>
+                                            </apex:repeat>
+                                        </table>    
+                                    </div>
+                             
+                            <!-- /div -->
+                        <!-- /div -->
+                        <!--       End of table with volunteers signed up        -->
+                        <div class="slds-m-top_medium">                            
+                            <apex:form >
+                                <!-- Display the name of the volunteer to approve and buttons -->
+                                <div class="slds-text-heading_medium slds-m-bottom_x-small">                                    
+                                    Volunteer to Approve: 
+                                    <span style="color:#8342f4;">{!volToConfirm.GW_Volunteers__Full_Name__c}</span>
+                                </div>
+                                <div class="slds-text-heading_small slds-p-around_small" >
+
+                                    <span class="slds-m-bottom_small" >
+                                        Status:&nbsp;&nbsp;&nbsp; {!volToConfirm.GW_Volunteers__Status__c}
+                                    </span>
+                                    <span class="slds-m-horizontal_large">
+                                        <apex:commandButton id="ApproveButton" action="{!approve}" value="Approve"
+                                                            style="border-radius:10px;border-style:none;background-color:green;color:white;font-weight:bold;" /> 
+                                    </span>
+                                    <span>
+                                        <apex:commandButton id="DenyButton" action="{!approve}" value="Deny"
+                                                        style="border-radius:10px;border-style:none;background-color:red;color:white;font-weight:bold;" />
+                                    </span>
+                                </div>
+                            </apex:form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>                    
+        
+    </body>
+</apex:page>
