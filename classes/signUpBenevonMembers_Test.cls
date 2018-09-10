@@ -39,6 +39,7 @@ public class signUpBenevonMembers_Test {
         controller.invitee.FirstName = 'Hola';
         controller.invitee.LastName = 'ComoEstas';
         controller.invitee.email = 'hola@gmail.com';
+        controller.invitee.phone = '602-602-6600';
         controller.save();        
         //set the page to the signUpMember page
         PageReference signUpForm = page.signUpMember;
@@ -52,6 +53,7 @@ public class signUpBenevonMembers_Test {
         controller.invitee.FirstName = 'Nombre';
         controller.invitee.LastName = 'Apellido';
         controller.invitee.email = 'soyYo@gmail.com';
+        controller.invitee.phone = '602-602-6600';
         controller.save();
         
         List<SelectOption> theOptions = controller.getCampaignEvents();
@@ -61,30 +63,35 @@ public class signUpBenevonMembers_Test {
         controller.invitee.FirstName = '';
         controller.invitee.LastName = 'ComoEstas';
         controller.invitee.email = 'hola@gmail.com';
+        controller.invitee.phone = '602-602-6600';
         controller.save();
         
         //test a signup without a last name
         controller.invitee.FirstName = 'Hola';
         controller.invitee.LastName = '';
         controller.invitee.email = 'hola@gmail.com';
+        controller.invitee.phone = '602-602-6600';
         controller.save();
 
         //test a signup without an email
         controller.invitee.FirstName = 'Hola';
         controller.invitee.LastName = 'ComoEstas';
         controller.invitee.email = '';
+        controller.invitee.phone = '602-602-6600';
         controller.save(); 
         
         //test a signup with an invalid email address
         controller.invitee.FirstName = 'Hola';
         controller.invitee.LastName = 'ComoEstas';
         controller.invitee.email = 'holaItisME';
+        controller.invitee.phone = '602-602-6600';
         controller.save();
         
         //test a signup of a current contact with a different incorrect email address
         controller.invitee.FirstName = 'Contact0';
         controller.invitee.LastName = 'Test0';
         controller.invitee.email = 'contactmailcom';
+        controller.invitee.phone = '602-602-6600';
         controller.save();
         controller.save();
         
@@ -92,6 +99,7 @@ public class signUpBenevonMembers_Test {
         controller.invitee.FirstName = 'Contact0';
         controller.invitee.LastName = 'Test0';
         controller.invitee.email = 'ContactTest0@testing.com';
+        controller.invitee.phone = '602-602-6600';
         controller.save();         
 
         //reset the page because the last SAVE was successful
@@ -109,6 +117,7 @@ public class signUpBenevonMembers_Test {
         controller.invitee.FirstName = 'Hola';
         controller.invitee.LastName = 'ComoEstas';
         controller.invitee.email = 'hola@gmail.com';
+        controller.invitee.phone = '602-602-6600';
         controller.setInvitee(controller.invitee);
         controller.save();
         integer totContacts = [SELECT count() FROM Contact];

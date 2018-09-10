@@ -1,5 +1,7 @@
 <!-- This page will be on one of the SF sites, 
-This is sign up form page for the public to sign up for a Volunteer Orientation -->
+This is sign up form page for the public to sign up for a Volunteer Orientation 
+
+    Sept 2018     MV -->
 
 <apex:page showHeader="false" Controller="signUpBenevonMembers" standardStylesheets="false" sidebar="false" applyHtmlTag="false" applyBodyTag="false" docType="html-5.0">
     <html xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" lang="en" />
@@ -44,7 +46,8 @@ This is sign up form page for the public to sign up for a Volunteer Orientation 
                             </div>
                         </div>
                         <div class="slds-form-element">
-                            <label class="slds-form-element__label" for="input-unique-id">Phone</label>
+                            <label class="slds-form-element__label" for="input-unique-id">
+                                <abbr class="slds-required" title="required">*</abbr>Phone</label>
                             <div class="slds-form-element__control">
                                 <apex:inputText value="{!invitee.Phone}" />
                             </div>

@@ -2,6 +2,8 @@
 //    signUpBenevonMember (a form for anyone to sign up for public POE's)
 //    singUpPrivatePOE (a form for people invited to sign up for private POE's)
 //    signUpOrientation (a form for anyone to sign up for Volunteer Orientation)
+//    
+//    Sept 2018  -- Martha Vance
 
 public class signUpBenevonMembers {
     public BenInvitee invitee;
@@ -86,14 +88,24 @@ public class signUpBenevonMembers {
             String stndcamp = '';
             //check if there are any required fields left blank
             string mistake = '';
-            If (invitee.FirstName.length() == 0)
+            If (invitee.FirstName.length() == 0){
                 mistake = 'Please type in the First Name';
-            Else 
-                if (invitee.LastName.length() == 0)
-                mistake = 'Please type in the Last Name';
-            else
-                if (invitee.Email.length() == 0)
-                mistake = 'You must enter an Email address';
+            }
+            Else {
+                if (invitee.LastName.length() == 0) {
+                    mistake = 'Please type in the Last Name';
+                }
+                else {                
+                    if (invitee.Email.length() == 0) {
+                        mistake = 'You must enter an Email address';
+                    }
+                    else {
+                        if (invitee.Phone.length() == 0) {
+                            mistake = 'You must enter a Phone'; 
+                        }
+                    }
+                }
+            }
             if (mistake.length() > 0) //if there is an error 
             {
                 ApexPages.addmessage(new ApexPages.Message(ApexPages.severity.info, mistake));
@@ -101,7 +113,7 @@ public class signUpBenevonMembers {
             }
             //look for the contact record
             Contact contact = new Contact();
-            List<Contact> contacts = [select id, email FROM Contact 
+            List<Contact> contacts = [select id, email, FirstName, LastName, Phone FROM Contact 
                                       WHERE FirstName = :invitee.FirstName
                                       AND LastName = :invitee.LastName];
             if (contacts.size() == 0)
@@ -135,6 +147,9 @@ public class signUpBenevonMembers {
                 }
                 else
                 {
+                    if (contact.phone != invitee.phone) {
+                        contact.phone = invitee.email;
+                    }
                     contact.email = invitee.email;
                     if (! triedUpdate )
                     {
