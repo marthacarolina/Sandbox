@@ -119,6 +119,8 @@ public class QAMonthlyVol extends QAReports {
                 adv.status = dataCells[3].getLabel();
                 adv.startDate = dataCells[4].getLabel();
                 String hrs = dataCells[5].getLabel();
+                hrs = hrs.trim();
+                hrs = hrs.remove(','); //removes the commas when the numbers are higher than 999
                 adv.hours = Decimal.valueOf(hrs);
                 if (vol.firstVolunteer == null) vol.firstVolunteer = date.valueOf(dataCells[8].getValue());
                 advs.add(adv);
