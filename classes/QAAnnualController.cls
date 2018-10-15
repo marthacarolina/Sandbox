@@ -1,6 +1,7 @@
 //This class prints the QA Donor reports - both, the annual and the Quarterly
+//Controller for VF pages QAannualDonorExel(csv) & QAannualDonorVF(pdf)
 //
-//Martha Vance
+//Martha Vance rev 10/15/18
 
 public class QAAnnualController extends QAReports {
     public integer totalDonations {get; set;} //total number of donations during time period
@@ -9,7 +10,7 @@ public class QAAnnualController extends QAReports {
     public integer totalDonors {get; set;} //total number of individual/household donors during time period
     public string IsCsv {get; set;} //true when the output is an exel file
     public List<PageDonor> pageBrokenDonorLines {get; set;}  //List of report pages      
-    
+    public list<donor> donors {get;set;}
    
     public void QAAnnualController(){}    
     
@@ -21,7 +22,9 @@ public class QAAnnualController extends QAReports {
         IsCsv = ApexPages.currentPage().getParameters().get('f');
         getMonthYear('01', year);
         //the previous method sets the endRange to the end of the month, change to end of year
-        endRange = year + '-12-31';        
+        endRange = year + '-12-31';   
+        //initialize the donor list
+        donors = new List<donor>();
         //call the report and populate the donors list with the information for
         //each household or account
         List <Report> reportList = [SELECT Id,DeveloperName FROM Report where
@@ -36,7 +39,7 @@ public class QAAnnualController extends QAReports {
         // Run the report - syncronously
         Reports.ReportResults results = Reports.ReportManager.runReport(reportId, rm, true);
         //Parse the information in the report
-        List<donor> donors = DonationsList(results, true);
+        donors = DonationsList(results, true);
         //separate the information by pages (for pagination)
         prepareDonorLinesForPrinting(donors);
     }
